@@ -282,8 +282,8 @@ importers:
         specifier: ^1.4.1
         version: 1.4.1
       '@hono/trpc-server':
-        specifier: ^0.1.0
-        version: 0.1.0(@trpc/server@10.37.1)(hono@3.3.4)
+        specifier: ^0.3.4
+        version: 0.3.4(@trpc/server@10.37.1)(hono@3.3.4)
       '@trpc/server':
         specifier: ^10.37.1
         version: 10.37.1
@@ -3110,12 +3110,12 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@hono/trpc-server@0.1.0(@trpc/server@10.37.1)(hono@3.3.4):
-    resolution: {integrity: sha512-tgXG/ndgHxLqC09o1bwq8SzLLgzwoCr6KBRDdz9l0k7p0yuW5h67oVSUxCbmFp94hP+ahdIyqnRL84Aw8GvZxQ==}
+  /@hono/trpc-server@0.3.4(@trpc/server@10.37.1)(hono@3.3.4):
+    resolution: {integrity: sha512-xFOPjUPnII70FgicDzOJy1ufIoBTu8eF578zGiDOrYOrYN8CJe140s9buzuPkX+SwJRYK8LjEBHywqZtxdm8aA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
-      '@trpc/server': ^10.10.0
-      hono: 3.*
+      '@trpc/server': ^10.10.0 || >11.0.0-rc
+      hono: '>=4.*'
     dependencies:
       '@trpc/server': 10.37.1
       hono: 3.3.4
