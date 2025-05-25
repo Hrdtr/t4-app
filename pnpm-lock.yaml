@@ -292,14 +292,14 @@ importers:
         version: 2.2.1
       drizzle-orm:
         specifier: ^0.27.2
-        version: 0.27.2(@cloudflare/workers-types@4.20230801.0)(better-sqlite3@8.5.0)
+        version: 0.27.2(@cloudflare/workers-types@4.20250525.0)(better-sqlite3@8.5.0)
       hono:
         specifier: ^3.3.4
         version: 3.3.4
     devDependencies:
       '@cloudflare/workers-types':
-        specifier: ^4.20230801.0
-        version: 4.20230801.0
+        specifier: ^4.20250525.0
+        version: 4.20250525.0
       better-sqlite3:
         specifier: ^8.5.0
         version: 8.5.0
@@ -1982,8 +1982,8 @@ packages:
     dev: true
     optional: true
 
-  /@cloudflare/workers-types@4.20230801.0:
-    resolution: {integrity: sha512-RzRUR+J/T3h58qbTZHYntYsnZXu3JnrlZIhqP2hhdyfoZAZ/+ko4wX0foAqlYHi+kXWaWtySHBuMcx6ec6TXlQ==}
+  /@cloudflare/workers-types@4.20250525.0:
+    resolution: {integrity: sha512-3loeNVJkcDLb9giarUIHmDgvh+/4RtH+R/rHn4BCmME1qKdu73n/hvECYhH8BabCZplF8zQy1wok1MKwXEWC/A==}
 
   /@cspotcode/source-map-support@0.8.1:
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -8309,7 +8309,7 @@ packages:
       - supports-color
     dev: true
 
-  /drizzle-orm@0.27.2(@cloudflare/workers-types@4.20230801.0)(better-sqlite3@8.5.0):
+  /drizzle-orm@0.27.2(@cloudflare/workers-types@4.20250525.0)(better-sqlite3@8.5.0):
     resolution: {integrity: sha512-ZvBvceff+JlgP7FxHKe0zOU9CkZ4RcOtibumIrqfYzDGuOeF0YUY0F9iMqYpRM7pxnLRfC+oO7rWOUH3T5oFQA==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
@@ -8371,7 +8371,7 @@ packages:
       sqlite3:
         optional: true
     dependencies:
-      '@cloudflare/workers-types': 4.20230801.0
+      '@cloudflare/workers-types': 4.20250525.0
       better-sqlite3: 8.5.0
     dev: false
 
