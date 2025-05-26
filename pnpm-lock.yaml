@@ -85,8 +85,8 @@ importers:
         specifier: ^7.27.1
         version: 7.27.1
       '@shopify/flash-list':
-        specifier: ^1.5.0
-        version: 1.5.0(@babel/runtime@7.27.1)(react-native@0.72.3)(react@18.2.0)
+        specifier: ^1.8.0
+        version: 1.8.0(@babel/runtime@7.27.1)(react-native@0.72.3)(react@18.2.0)
       '@t4/ui':
         specifier: '*'
         version: link:../../packages/ui
@@ -222,7 +222,7 @@ importers:
         version: 1.49.2(react-dom@18.2.0)(react@18.2.0)
       webpack:
         specifier: ^5.88.2
-        version: 5.88.2(esbuild@0.18.17)
+        version: 5.88.2(esbuild@0.17.19)
     devDependencies:
       '@tamagui/next-plugin':
         specifier: ^1.49.2
@@ -322,8 +322,8 @@ importers:
   packages/app:
     dependencies:
       '@shopify/flash-list':
-        specifier: ^1.5.0
-        version: 1.5.0(@babel/runtime@7.27.1)(react-native@0.72.3)(react@18.2.0)
+        specifier: ^1.8.0
+        version: 1.8.0(@babel/runtime@7.27.1)(react-native@0.72.3)(react@18.2.0)
       '@t4/ui':
         specifier: '*'
         version: link:../ui
@@ -386,8 +386,8 @@ importers:
   packages/ui:
     dependencies:
       '@shopify/flash-list':
-        specifier: ^1.5.0
-        version: 1.5.0(@babel/runtime@7.27.1)(react-native@0.72.3)(react@18.2.0)
+        specifier: ^1.8.0
+        version: 1.8.0(@babel/runtime@7.27.1)(react-native@0.72.3)(react@18.2.0)
       '@supabase/supabase-js':
         specifier: ^2.31.0
         version: 2.31.0
@@ -2089,7 +2089,6 @@ packages:
     cpu: [arm64]
     os: [android]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/android-arm64@0.18.17:
@@ -2098,6 +2097,7 @@ packages:
     cpu: [arm64]
     os: [android]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/android-arm@0.16.3:
@@ -2115,7 +2115,6 @@ packages:
     cpu: [arm]
     os: [android]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/android-arm@0.18.17:
@@ -2124,6 +2123,7 @@ packages:
     cpu: [arm]
     os: [android]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/android-x64@0.16.3:
@@ -2141,7 +2141,6 @@ packages:
     cpu: [x64]
     os: [android]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/android-x64@0.18.17:
@@ -2150,6 +2149,7 @@ packages:
     cpu: [x64]
     os: [android]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/darwin-arm64@0.16.3:
@@ -2167,7 +2167,6 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/darwin-arm64@0.18.17:
@@ -2176,6 +2175,7 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/darwin-x64@0.16.3:
@@ -2193,7 +2193,6 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/darwin-x64@0.18.17:
@@ -2202,6 +2201,7 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/freebsd-arm64@0.16.3:
@@ -2219,7 +2219,6 @@ packages:
     cpu: [arm64]
     os: [freebsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/freebsd-arm64@0.18.17:
@@ -2228,6 +2227,7 @@ packages:
     cpu: [arm64]
     os: [freebsd]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/freebsd-x64@0.16.3:
@@ -2245,7 +2245,6 @@ packages:
     cpu: [x64]
     os: [freebsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/freebsd-x64@0.18.17:
@@ -2254,6 +2253,7 @@ packages:
     cpu: [x64]
     os: [freebsd]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-arm64@0.16.3:
@@ -2271,7 +2271,6 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-arm64@0.18.17:
@@ -2280,6 +2279,7 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-arm@0.16.3:
@@ -2297,7 +2297,6 @@ packages:
     cpu: [arm]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-arm@0.18.17:
@@ -2306,6 +2305,7 @@ packages:
     cpu: [arm]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-ia32@0.16.3:
@@ -2323,7 +2323,6 @@ packages:
     cpu: [ia32]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-ia32@0.18.17:
@@ -2332,6 +2331,7 @@ packages:
     cpu: [ia32]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-loong64@0.16.3:
@@ -2349,7 +2349,6 @@ packages:
     cpu: [loong64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-loong64@0.18.17:
@@ -2358,6 +2357,7 @@ packages:
     cpu: [loong64]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-mips64el@0.16.3:
@@ -2375,7 +2375,6 @@ packages:
     cpu: [mips64el]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-mips64el@0.18.17:
@@ -2384,6 +2383,7 @@ packages:
     cpu: [mips64el]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-ppc64@0.16.3:
@@ -2401,7 +2401,6 @@ packages:
     cpu: [ppc64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-ppc64@0.18.17:
@@ -2410,6 +2409,7 @@ packages:
     cpu: [ppc64]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-riscv64@0.16.3:
@@ -2427,7 +2427,6 @@ packages:
     cpu: [riscv64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-riscv64@0.18.17:
@@ -2436,6 +2435,7 @@ packages:
     cpu: [riscv64]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-s390x@0.16.3:
@@ -2453,7 +2453,6 @@ packages:
     cpu: [s390x]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-s390x@0.18.17:
@@ -2462,6 +2461,7 @@ packages:
     cpu: [s390x]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/linux-x64@0.16.3:
@@ -2479,7 +2479,6 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-x64@0.18.17:
@@ -2488,6 +2487,7 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/netbsd-x64@0.16.3:
@@ -2505,7 +2505,6 @@ packages:
     cpu: [x64]
     os: [netbsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/netbsd-x64@0.18.17:
@@ -2514,6 +2513,7 @@ packages:
     cpu: [x64]
     os: [netbsd]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/openbsd-x64@0.16.3:
@@ -2531,7 +2531,6 @@ packages:
     cpu: [x64]
     os: [openbsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/openbsd-x64@0.18.17:
@@ -2540,6 +2539,7 @@ packages:
     cpu: [x64]
     os: [openbsd]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/sunos-x64@0.16.3:
@@ -2557,7 +2557,6 @@ packages:
     cpu: [x64]
     os: [sunos]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/sunos-x64@0.18.17:
@@ -2566,6 +2565,7 @@ packages:
     cpu: [x64]
     os: [sunos]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/win32-arm64@0.16.3:
@@ -2583,7 +2583,6 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/win32-arm64@0.18.17:
@@ -2592,6 +2591,7 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/win32-ia32@0.16.3:
@@ -2609,7 +2609,6 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/win32-ia32@0.18.17:
@@ -2618,6 +2617,7 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@esbuild/win32-x64@0.16.3:
@@ -2635,7 +2635,6 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/win32-x64@0.18.17:
@@ -2644,6 +2643,7 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
+    dev: true
     optional: true
 
   /@eslint-community/eslint-utils@4.4.0(eslint@8.45.0):
@@ -3997,8 +3997,8 @@ packages:
       join-component: 1.1.0
     dev: false
 
-  /@shopify/flash-list@1.5.0(@babel/runtime@7.27.1)(react-native@0.72.3)(react@18.2.0):
-    resolution: {integrity: sha512-XeocevDIXastr6jh3TPo1MzV5XkdqTyWtw/j8kUhz9EOBc2SzNWbpJWyzrAsYKlqYNrnxxs0P9C0amlX2jaQnw==}
+  /@shopify/flash-list@1.8.0(@babel/runtime@7.27.1)(react-native@0.72.3)(react@18.2.0):
+    resolution: {integrity: sha512-APZ48kceCCJobUimmI2594io+HujELK60HFKgzIyIdHGX5ySR5YfvsPy3PKtPwHHDtIMFNaq3U/BY3qZocOhCA==}
     peerDependencies:
       '@babel/runtime': '*'
       react: '*'
@@ -4007,8 +4007,8 @@ packages:
       '@babel/runtime': 7.27.1
       react: 18.2.0
       react-native: 0.72.3(@babel/core@7.27.1)(@babel/preset-env@7.22.9)(react@18.2.0)
-      recyclerlistview: 4.2.0(react-native@0.72.3)(react@18.2.0)
-      tslib: 2.4.0
+      recyclerlistview: 4.2.3(react-native@0.72.3)(react@18.2.0)
+      tslib: 2.8.1
     dev: false
 
   /@sideway/address@4.1.4:
@@ -6587,7 +6587,7 @@ packages:
       '@babel/core': 7.27.1
       find-cache-dir: 4.0.0
       schema-utils: 4.2.0
-      webpack: 5.88.2(esbuild@0.18.17)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /babel-plugin-module-resolver@4.1.0:
@@ -7555,7 +7555,7 @@ packages:
       postcss-modules-values: 4.0.0(postcss@8.4.27)
       postcss-value-parser: 4.2.0
       semver: 7.5.4
-      webpack: 5.88.2(esbuild@0.18.17)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /css-mediaquery@0.1.2:
@@ -8708,7 +8708,7 @@ packages:
       esbuild: 0.18.17
       get-tsconfig: 4.6.2
       loader-utils: 2.0.4
-      webpack: 5.88.2(esbuild@0.18.17)
+      webpack: 5.88.2(esbuild@0.17.19)
       webpack-sources: 1.4.3
     dev: true
 
@@ -8874,7 +8874,6 @@ packages:
       '@esbuild/win32-arm64': 0.17.19
       '@esbuild/win32-ia32': 0.17.19
       '@esbuild/win32-x64': 0.17.19
-    dev: true
 
   /esbuild@0.18.17:
     resolution: {integrity: sha512-1GJtYnUxsJreHYA0Y+iQz2UEykonY66HNWOb0yXYZi9/kNrORUEHVg87eQsCtqh59PEJ5YVZJO98JHznMJSWjg==}
@@ -8904,6 +8903,7 @@ packages:
       '@esbuild/win32-arm64': 0.18.17
       '@esbuild/win32-ia32': 0.18.17
       '@esbuild/win32-x64': 0.18.17
+    dev: true
 
   /escalade@3.1.1:
     resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
@@ -9858,7 +9858,7 @@ packages:
     dependencies:
       loader-utils: 2.0.4
       schema-utils: 3.3.0
-      webpack: 5.88.2(esbuild@0.18.17)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /file-uri-to-path@1.0.0:
@@ -10634,7 +10634,7 @@ packages:
       lodash: 4.17.21
       pretty-error: 4.0.0
       tapable: 2.2.1
-      webpack: 5.88.2(esbuild@0.18.17)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /htmlparser2@6.1.0:
@@ -14549,8 +14549,8 @@ packages:
       source-map: 0.6.1
       tslib: 2.6.1
 
-  /recyclerlistview@4.2.0(react-native@0.72.3)(react@18.2.0):
-    resolution: {integrity: sha512-uuBCi0c+ggqHKwrzPX4Z/mJOzsBbjZEAwGGmlwpD/sD7raXixdAbdJ6BTcAmuWG50Cg4ru9p12M94Njwhr/27A==}
+  /recyclerlistview@4.2.3(react-native@0.72.3)(react@18.2.0):
+    resolution: {integrity: sha512-STR/wj/FyT8EMsBzzhZ1l2goYirMkIgfV3gYEPxI3Kf3lOnu6f7Dryhyw7/IkQrgX5xtTcDrZMqytvteH9rL3g==}
     peerDependencies:
       react: '>= 15.2.1'
       react-native: '>= 0.30.0'
@@ -15835,7 +15835,7 @@ packages:
       supports-hyperlinks: 2.3.0
     dev: false
 
-  /terser-webpack-plugin@5.3.9(esbuild@0.18.17)(webpack@5.88.2):
+  /terser-webpack-plugin@5.3.9(esbuild@0.17.19)(webpack@5.88.2):
     resolution: {integrity: sha512-ZuXsqE07EcggTWQjXUj+Aot/OMcD0bMKGgF63f7UxYcu5/AJF53aIpK1YoP5xR9l6s/Hy2b+t1AM0bLNPRuhwA==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -15852,12 +15852,12 @@ packages:
         optional: true
     dependencies:
       '@jridgewell/trace-mapping': 0.3.18
-      esbuild: 0.18.17
+      esbuild: 0.17.19
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
       terser: 5.19.2
-      webpack: 5.88.2(esbuild@0.18.17)
+      webpack: 5.88.2(esbuild@0.17.19)
 
   /terser@5.19.2:
     resolution: {integrity: sha512-qC5+dmecKJA4cpYxRa5aVkKehYsQKc+AHeKl0Oe62aYjBL8ZA33tTljktDHJSaxxMnbI5ZYw+o/S2DxxLu8OfA==}
@@ -15893,7 +15893,7 @@ packages:
       loader-runner: 4.3.0
       neo-async: 2.6.2
       schema-utils: 4.2.0
-      webpack: 5.88.2(esbuild@0.18.17)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /throat@5.0.0:
@@ -16070,12 +16070,12 @@ packages:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
 
-  /tslib@2.4.0:
-    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
-    dev: false
-
   /tslib@2.6.1:
     resolution: {integrity: sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==}
+
+  /tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
+    dev: false
 
   /tsutils@3.21.0(typescript@5.1.6):
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
@@ -16535,7 +16535,7 @@ packages:
       loader-utils: 2.0.4
       mime-types: 2.1.35
       schema-utils: 3.3.0
-      webpack: 5.88.2(esbuild@0.18.17)
+      webpack: 5.88.2(esbuild@0.17.19)
     dev: true
 
   /url-parse@1.5.10:
@@ -16789,7 +16789,7 @@ packages:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
     engines: {node: '>=10.13.0'}
 
-  /webpack@5.88.2(esbuild@0.18.17):
+  /webpack@5.88.2(esbuild@0.17.19):
     resolution: {integrity: sha512-JmcgNZ1iKj+aiR0OvTYtWQqJwq37Pf683dY9bVORwVbUrDhLhdn/PlO2sHsFHPkj7sHNQF3JwaAkp49V+Sq1tQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
@@ -16820,7 +16820,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.9(esbuild@0.18.17)(webpack@5.88.2)
+      terser-webpack-plugin: 5.3.9(esbuild@0.17.19)(webpack@5.88.2)
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:

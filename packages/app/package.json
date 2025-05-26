@@ -10,7 +10,7 @@
     "clean": "rm -rf node_modules"
   },
   "dependencies": {
-    "@shopify/flash-list": "^1.5.0",
+    "@shopify/flash-list": "^1.8.0",
     "@t4/ui": "*",
     "@tamagui/animations-react-native": "^1.49.2",
     "@tamagui/colors": "^1.49.2",
