@@ -334,8 +334,8 @@ importers:
         specifier: ^1.126.13
         version: 1.126.13
       '@tamagui/font-inter':
-        specifier: ^1.49.2
-        version: 1.49.2(react@18.2.0)
+        specifier: ^1.126.13
+        version: 1.126.13(react-dom@18.2.0)(react-native@0.72.3)(react@18.2.0)
       '@tamagui/lucide-icons':
         specifier: ^1.49.2
         version: 1.49.2(react-native-svg@13.10.0)(react@18.2.0)
@@ -395,8 +395,8 @@ importers:
         specifier: ^1.126.13
         version: 1.126.13(react-dom@18.2.0)(react@18.2.0)
       '@tamagui/font-inter':
-        specifier: ^1.49.2
-        version: 1.49.2(react@18.2.0)
+        specifier: ^1.126.13
+        version: 1.126.13(react-dom@18.2.0)(react-native@0.72.3)(react@18.2.0)
       '@tamagui/react-native-media-driver':
         specifier: ^1.49.2
         version: 1.49.2(react-native@0.72.3)(react@18.2.0)
@@ -4909,7 +4909,6 @@ packages:
       - react
       - react-dom
       - react-native
-    dev: true
 
   /@tamagui/core@1.49.2(react@18.2.0):
     resolution: {integrity: sha512-7ssJnyb8UHZqrCu51MiQ4jIQgIoeZLg+GKyXQsBWETejGh5R9ILAFdR7ASuAQD10e/WcvfyanyqGbnobjXPP3Q==}
@@ -5031,12 +5030,14 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@tamagui/font-inter@1.49.2(react@18.2.0):
-    resolution: {integrity: sha512-iPbOB3kUDg6s9rY8DKgo6GQtS2wfGunrPVGRUguuaYXHflp+B620NVBgfRSY3LvSKYRUcTswfUQwCMMZAGW0ag==}
+  /@tamagui/font-inter@1.126.13(react-dom@18.2.0)(react-native@0.72.3)(react@18.2.0):
+    resolution: {integrity: sha512-VBtWzFUv3/GtFOFHV268N1AB0l3UlQCh3gEsr4iVSu/qwFSnfT8FibOkyr9CvrhCPCdt41Liggsar3Lcqml+dw==}
     dependencies:
-      '@tamagui/core': 1.49.2(react@18.2.0)
+      '@tamagui/core': 1.126.13(react-dom@18.2.0)(react-native@0.72.3)(react@18.2.0)
     transitivePeerDependencies:
       - react
+      - react-dom
+      - react-native
     dev: false
 
   /@tamagui/font-size@1.49.2(react@18.2.0):
@@ -5421,7 +5422,6 @@ packages:
     transitivePeerDependencies:
       - react
       - react-dom
-    dev: true
 
   /@tamagui/react-native-media-driver@1.49.2(react-native@0.72.3)(react@18.2.0):
     resolution: {integrity: sha512-HpPFd/lqcWkBc6B6swW1SfhdIHQzVwtsTfukVvNR8YjTJJ5GL9PVFb+c49A11DglldVoy+gGkgLTPt2seiyGiQ==}
@@ -5445,7 +5445,6 @@ packages:
       react: '*'
     dependencies:
       react: 18.2.0
-    dev: true
 
   /@tamagui/react-native-use-pressable@1.49.2(react@18.2.0):
     resolution: {integrity: sha512-W+LsZPsPYq19OtnOL4erLZItk7OrWxhXFwE3n3hUYdvUX8l/I6Im2FIkmiGqupYrFP0uIbk4bc409q5wQjSoiA==}
@@ -5460,7 +5459,6 @@ packages:
       react: '*'
     dependencies:
       react: 18.2.0
-    dev: true
 
   /@tamagui/react-native-use-responder-events@1.49.2(react@18.2.0):
     resolution: {integrity: sha512-MO1gh7I4W62EHa0p4F7z19QiipXm5C7CQSRFehQDIQE8V88GsUyogSGzNDyVkH89yQPASzcbyfCp3M8KCv7ppg==}
