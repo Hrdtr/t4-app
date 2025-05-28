@@ -331,8 +331,8 @@ importers:
         specifier: ^1.126.13
         version: 1.126.13(react-dom@18.2.0)(react@18.2.0)
       '@tamagui/colors':
-        specifier: ^1.49.2
-        version: 1.49.2
+        specifier: ^1.126.13
+        version: 1.126.13
       '@tamagui/font-inter':
         specifier: ^1.49.2
         version: 1.49.2(react@18.2.0)
@@ -4828,6 +4828,10 @@ packages:
       '@tamagui/stacks': 1.49.2(react@18.2.0)
       '@tamagui/use-controllable-state': 1.49.2(react@18.2.0)
       react: 18.2.0
+    dev: false
+
+  /@tamagui/colors@1.126.13:
+    resolution: {integrity: sha512-pCeh3M+q8OptMAGSwNOQqnzK9+CnJuBK2QOyjgxQhNp2n7Q3vvsCVyMH+MYwt4bXESXz2HtS5sH8W4j0NvZaNg==}
     dev: false
 
   /@tamagui/colors@1.49.2:
