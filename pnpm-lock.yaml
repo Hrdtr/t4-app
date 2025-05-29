@@ -340,8 +340,8 @@ importers:
         specifier: ^1.126.13
         version: 1.126.13(react-dom@18.2.0)(react-native-svg@13.10.0)(react-native@0.72.3)(react@18.2.0)
       '@tamagui/shorthands':
-        specifier: ^1.49.2
-        version: 1.49.2
+        specifier: ^1.126.13
+        version: 1.126.13(react-dom@18.2.0)(react@18.2.0)
       '@tamagui/themes':
         specifier: ^1.49.2
         version: 1.49.2(react@18.2.0)
@@ -401,8 +401,8 @@ importers:
         specifier: ^1.126.13
         version: 1.126.13(react-dom@18.2.0)(react-native@0.72.3)(react@18.2.0)
       '@tamagui/shorthands':
-        specifier: ^1.49.2
-        version: 1.49.2
+        specifier: ^1.126.13
+        version: 1.126.13(react-dom@18.2.0)(react@18.2.0)
       '@tamagui/themes':
         specifier: ^1.49.2
         version: 1.49.2(react@18.2.0)
@@ -5512,11 +5512,6 @@ packages:
     transitivePeerDependencies:
       - react
       - react-dom
-    dev: true
-
-  /@tamagui/shorthands@1.49.2:
-    resolution: {integrity: sha512-A2o8Q+aQZQdbDPsrUoO2vhCHimhRkMtiRCdK9bPcAq0yaLY4SRFzAY5orX1urrxMIzMcyXn+ShFE7d4856y4QA==}
-    dev: false
 
   /@tamagui/simple-hash@1.126.13:
     resolution: {integrity: sha512-0uHpTDBHXyz7Rl0mGDFhaQpTJ06h1vtsMvArBbE1M3DH9mXXWMUjEA5F8cUC1WVF22MQLLBKwIQJvnRRHlSEOA==}
