@@ -194,8 +194,8 @@ importers:
         specifier: '*'
         version: link:../../packages/ui
       '@tamagui/next-theme':
-        specifier: ^1.49.2
-        version: 1.49.2(react@18.2.0)
+        specifier: ^1.126.13
+        version: 1.126.13(react@18.2.0)
       app:
         specifier: '*'
         version: link:../../packages/app
@@ -5183,12 +5183,13 @@ packages:
       - webpack
     dev: true
 
-  /@tamagui/next-theme@1.49.2(react@18.2.0):
-    resolution: {integrity: sha512-x5FLMD/Z/80Rjs9/KDYSauNDcd94eH7b2ow9IexRDd7bOwpSaVHLJXTdqgswZYJKnhZxyZ55x4b4lIFHvGD1+Q==}
+  /@tamagui/next-theme@1.126.13(react@18.2.0):
+    resolution: {integrity: sha512-CiYs/7cFHB4DaVLkBFr48eBNm0Jjc2h6vzg7d0L7cB5dx+kI6Rtdp1auIXUr5iMKgoSjEDGqh5NaBYSL7XYMvQ==}
     peerDependencies:
       react: '*'
     dependencies:
-      '@tamagui/use-event': 1.49.2(react@18.2.0)
+      '@tamagui/constants': 1.126.13(react@18.2.0)
+      '@tamagui/use-event': 1.126.13(react@18.2.0)
       react: 18.2.0
     dev: false
 
