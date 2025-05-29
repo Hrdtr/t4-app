@@ -24,7 +24,7 @@
     "@tamagui/font-inter": "^1.126.13",
     "@tamagui/react-native-media-driver": "^1.126.13",
     "@tamagui/shorthands": "^1.126.13",
-    "@tamagui/themes": "^1.49.2",
+    "@tamagui/themes": "^1.126.13",
     "@tamagui/toast": "^1.49.2",
     "@tanstack/react-virtual": "^3.0.0-beta.54",
     "jotai": "^2.2.3",
