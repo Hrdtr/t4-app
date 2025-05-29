@@ -26,7 +26,7 @@
     "webpack": "^5.88.2"
   },
   "devDependencies": {
-    "@tamagui/next-plugin": "^1.49.2",
+    "@tamagui/next-plugin": "^1.126.13",
     "@types/node": "^18.16.19",
     "dotenv-cli": "^7.2.1",
     "eslint-config-next": "^13.4.12",
