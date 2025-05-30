@@ -85,8 +85,8 @@ importers:
         specifier: ^7.27.4
         version: 7.27.4
       '@shopify/flash-list':
-        specifier: ^1.8.1
-        version: 1.8.1(@babel/runtime@7.27.4)(react-native@0.72.3)(react@18.2.0)
+        specifier: ^1.8.2
+        version: 1.8.2(@babel/runtime@7.27.4)(react-native@0.72.3)(react@18.2.0)
       '@t4/ui':
         specifier: '*'
         version: link:../../packages/ui
@@ -322,8 +322,8 @@ importers:
   packages/app:
     dependencies:
       '@shopify/flash-list':
-        specifier: ^1.8.1
-        version: 1.8.1(@babel/runtime@7.27.4)(react-native@0.72.3)(react@18.2.0)
+        specifier: ^1.8.2
+        version: 1.8.2(@babel/runtime@7.27.4)(react-native@0.72.3)(react@18.2.0)
       '@t4/ui':
         specifier: '*'
         version: link:../ui
@@ -386,8 +386,8 @@ importers:
   packages/ui:
     dependencies:
       '@shopify/flash-list':
-        specifier: ^1.8.1
-        version: 1.8.1(@babel/runtime@7.27.4)(react-native@0.72.3)(react@18.2.0)
+        specifier: ^1.8.2
+        version: 1.8.2(@babel/runtime@7.27.4)(react-native@0.72.3)(react@18.2.0)
       '@supabase/supabase-js':
         specifier: ^2.49.8
         version: 2.49.8
@@ -4233,8 +4233,8 @@ packages:
       join-component: 1.1.0
     dev: false
 
-  /@shopify/flash-list@1.8.1(@babel/runtime@7.27.4)(react-native@0.72.3)(react@18.2.0):
-    resolution: {integrity: sha512-V4DKqH9iFvM7haP6CETbi2RDMlG54ibtFNewrt+dVIFb+NH2WjgNeim3qui4AJj6bcGh/iraD9CaVfvW8nIrag==}
+  /@shopify/flash-list@1.8.2(@babel/runtime@7.27.4)(react-native@0.72.3)(react@18.2.0):
+    resolution: {integrity: sha512-CJRkaMkwbDJtOyO9RgjXIXDKgIpgXPt2fncK7zcNvTPbvZHWnXcnS7Avl+TzAtvpPThV+fl3oxjnOYpszMil2A==}
     peerDependencies:
       '@babel/runtime': '*'
       react: '*'
