@@ -30,7 +30,7 @@
     "clean:workspaces": "turbo clean"
   },
   "dependencies": {
-    "@babel/runtime": "^7.27.3",
+    "@babel/runtime": "^7.27.4",
     "@manypkg/cli": "^0.24.0",
     "@supabase/supabase-js": "^2.49.8",
     "check-dependency-version-consistency": "^4.1.1",
