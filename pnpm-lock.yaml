@@ -288,8 +288,8 @@ importers:
         specifier: ^10.37.1
         version: 10.37.1
       '@tsndr/cloudflare-worker-jwt':
-        specifier: ^2.2.1
-        version: 2.2.1
+        specifier: ^2.5.4
+        version: 2.5.4
       drizzle-orm:
         specifier: ^0.27.2
         version: 0.27.2(@cloudflare/workers-types@4.20250529.0)(better-sqlite3@8.5.0)
@@ -6224,8 +6224,8 @@ packages:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
     dev: true
 
-  /@tsndr/cloudflare-worker-jwt@2.2.1:
-    resolution: {integrity: sha512-yYxjmag5AXXs7FDCUlse8cCTQlug3fbrqUb4/s4kvdauOg5wq2V6BayHD/OUWOGmgohefFRqu4vA5phU3+Cyng==}
+  /@tsndr/cloudflare-worker-jwt@2.5.4:
+    resolution: {integrity: sha512-f9lU8CL9NrsA3f8+Hanlgjl8Ten+WRAaV3DbmbReQGdH5rCRJeDSzpVaMjV6ifZP5hl8gvEumc18KqtT6xtX4A==}
     dev: false
 
   /@types/acorn@4.0.6:
