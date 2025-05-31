@@ -292,7 +292,7 @@ importers:
         version: 2.5.4
       drizzle-orm:
         specifier: ^0.27.2
-        version: 0.27.2(@cloudflare/workers-types@4.20250531.0)(better-sqlite3@8.5.0)
+        version: 0.27.2(@cloudflare/workers-types@4.20250531.0)(better-sqlite3@8.7.0)
       hono:
         specifier: ^3.3.4
         version: 3.3.4
@@ -301,8 +301,8 @@ importers:
         specifier: ^4.20250531.0
         version: 4.20250531.0
       better-sqlite3:
-        specifier: ^8.5.0
-        version: 8.5.0
+        specifier: ^8.7.0
+        version: 8.7.0
       dotenv-cli:
         specifier: ^7.2.1
         version: 7.2.1
@@ -7504,8 +7504,8 @@ packages:
       open: 8.4.2
     dev: false
 
-  /better-sqlite3@8.5.0:
-    resolution: {integrity: sha512-vbPcv/Hx5WYdyNg/NbcfyaBZyv9s/NVbxb7yCeC5Bq1pVocNxeL2tZmSu3Rlm4IEOTjYdGyzWQgyx0OSdORBzw==}
+  /better-sqlite3@8.7.0:
+    resolution: {integrity: sha512-99jZU4le+f3G6aIl6PmmV0cxUIWqKieHxsiF7G34CVFiE+/UabpYqkU0NJIkY/96mQKikHeBjtR27vFfs5JpEw==}
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
@@ -9041,7 +9041,7 @@ packages:
       - supports-color
     dev: true
 
-  /drizzle-orm@0.27.2(@cloudflare/workers-types@4.20250531.0)(better-sqlite3@8.5.0):
+  /drizzle-orm@0.27.2(@cloudflare/workers-types@4.20250531.0)(better-sqlite3@8.7.0):
     resolution: {integrity: sha512-ZvBvceff+JlgP7FxHKe0zOU9CkZ4RcOtibumIrqfYzDGuOeF0YUY0F9iMqYpRM7pxnLRfC+oO7rWOUH3T5oFQA==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
@@ -9104,7 +9104,7 @@ packages:
         optional: true
     dependencies:
       '@cloudflare/workers-types': 4.20250531.0
-      better-sqlite3: 8.5.0
+      better-sqlite3: 8.7.0
     dev: false
 
   /eastasianwidth@0.2.0:
@@ -11053,7 +11053,7 @@ packages:
     dev: false
 
   /github-from-package@0.0.0:
-    resolution: {integrity: sha1-l/tdlr/eiXMxPyDoKI75oWf6ZM4=}
+    resolution: {integrity: sha512-SyHy3T1v2NUXn29OsWdxmK6RwHD+vkj3v8en8AOBZ1wBQ/hCAQ5bAQTD02kW4W9tUp/3Qh6J8r9EvntiyCmOOw==}
 
   /github-slugger@2.0.0:
     resolution: {integrity: sha512-IaOQ9puYtjrkq7Y0Ygl9KDZnrf/aiUJYUpVf89y8kyaxbRG7Y1SrX/jaumrv81vc61+kiMempujsM3Yw7w5qcw==}
@@ -13676,7 +13676,7 @@ packages:
     dependencies:
       acorn: 8.10.0
       acorn-walk: 8.2.0
-      better-sqlite3: 8.5.0
+      better-sqlite3: 8.7.0
       capnp-ts: 0.7.0
       exit-hook: 2.2.1
       glob-to-regexp: 0.4.1
