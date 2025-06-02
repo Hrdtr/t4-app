@@ -413,8 +413,8 @@ importers:
         specifier: ^3.13.9
         version: 3.13.9(react-dom@18.2.0)(react@18.2.0)
       jotai:
-        specifier: ^2.2.3
-        version: 2.2.3(react@18.2.0)
+        specifier: ^2.12.5
+        version: 2.12.5(react@18.2.0)
       tamagui:
         specifier: ^1.49.2
         version: 1.49.2(react-dom@18.2.0)(react-native-web@0.19.7)(react-native@0.72.3)(react@18.2.0)
@@ -11784,8 +11784,8 @@ packages:
     resolution: {integrity: sha512-j8GhLiKmUAh+dsFXlX1aJCbt5KMibuKb+d7j1JaOJG6s2UjX1PQlW+OKB/sD4a/5ZYF4RcmYmLSndOoU3Lt/3g==}
     dev: false
 
-  /jotai@2.2.3(react@18.2.0):
-    resolution: {integrity: sha512-E3tTBb2CKwjAJKUJYVV6rKM8zxmpsPMedRclRnI2RgLzkvgDEH6mhtZPVesxIoixJ8p7949RWd8eo/8TqDDFDA==}
+  /jotai@2.12.5(react@18.2.0):
+    resolution: {integrity: sha512-G8m32HW3lSmcz/4mbqx0hgJIQ0ekndKWiYP7kWVKi0p6saLXdSoye+FZiOFyonnd7Q482LCzm8sMDl7Ar1NWDw==}
     engines: {node: '>=12.20.0'}
     peerDependencies:
       '@types/react': '>=17.0.0'
