@@ -283,7 +283,7 @@ importers:
         version: 1.4.1
       '@hono/trpc-server':
         specifier: ^0.3.4
-        version: 0.3.4(@trpc/server@10.37.1)(hono@3.3.4)
+        version: 0.3.4(@trpc/server@10.37.1)(hono@3.12.12)
       '@trpc/server':
         specifier: ^10.37.1
         version: 10.37.1
@@ -294,8 +294,8 @@ importers:
         specifier: ^0.44.1
         version: 0.44.1(@cloudflare/workers-types@4.20250601.0)(better-sqlite3@8.7.0)
       hono:
-        specifier: ^3.3.4
-        version: 3.3.4
+        specifier: ^3.12.12
+        version: 3.12.12
     devDependencies:
       '@cloudflare/workers-types':
         specifier: ^4.20250601.0
@@ -3093,7 +3093,7 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@hono/trpc-server@0.3.4(@trpc/server@10.37.1)(hono@3.3.4):
+  /@hono/trpc-server@0.3.4(@trpc/server@10.37.1)(hono@3.12.12):
     resolution: {integrity: sha512-xFOPjUPnII70FgicDzOJy1ufIoBTu8eF578zGiDOrYOrYN8CJe140s9buzuPkX+SwJRYK8LjEBHywqZtxdm8aA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -3101,7 +3101,7 @@ packages:
       hono: '>=4.*'
     dependencies:
       '@trpc/server': 10.37.1
-      hono: 3.3.4
+      hono: 3.12.12
     dev: false
 
   /@humanwhocodes/config-array@0.13.0:
@@ -11067,8 +11067,8 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /hono@3.3.4:
-    resolution: {integrity: sha512-lqvcsQrXS0bSydj/MkOXi3opAwrlauIjZefhXMMRj9prABfBWdrYHSrWk/xfxgxNPs4yuEMh2Z5zV0L2b1Jmdw==}
+  /hono@3.12.12:
+    resolution: {integrity: sha512-5IAMJOXfpA5nT+K0MNjClchzz0IhBHs2Szl7WFAhrFOsbtQsYmNynFyJRg/a3IPsmCfxcrf8txUGiNShXpK5Rg==}
     engines: {node: '>=16.0.0'}
     dev: false
 
