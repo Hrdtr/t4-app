@@ -173,8 +173,8 @@ importers:
         specifier: ^0.4.4
         version: 0.4.4
       metro-minify-terser:
-        specifier: ^0.77.0
-        version: 0.77.0
+        specifier: ^0.82.4
+        version: 0.82.4
       react-native-dotenv:
         specifier: ^3.4.11
         version: 3.4.11(@babel/runtime@7.27.4)
@@ -10455,6 +10455,10 @@ packages:
   /flow-enums-runtime@0.0.5:
     resolution: {integrity: sha512-PSZF9ZuaZD03sT9YaIs0FrGJ7lSUw7rHZIex+73UYVXg46eL/wxN5PaVcPJFudE2cJu5f0fezitV5aBkLHPUOQ==}
 
+  /flow-enums-runtime@0.0.6:
+    resolution: {integrity: sha512-3PYnM29RFXwvAN6Pc/scUfkI7RwhQ/xqyLUyPNlXUp9S40zI8nup9tUSrTLSVnWGBN38FNiGWbwZOB6uR4OGdw==}
+    dev: true
+
   /flow-parser@0.206.0:
     resolution: {integrity: sha512-HVzoK3r6Vsg+lKvlIZzaWNBVai+FXTX1wdYhz/wVlH13tb/gOdLXmlTqy6odmTBhT5UoWUbq0k8263Qhr9d88w==}
     engines: {node: '>=0.4.0'}
@@ -12673,10 +12677,11 @@ packages:
     dependencies:
       terser: 5.19.2
 
-  /metro-minify-terser@0.77.0:
-    resolution: {integrity: sha512-StiZjb57WYjhLyaW7PJ0xnNAWj9RZFYZWyL3MPUChpXKZXVkjurDDgiAXN9zanM/n5eachKlmAdsSpm5dVqC8w==}
-    engines: {node: '>=18'}
+  /metro-minify-terser@0.82.4:
+    resolution: {integrity: sha512-W79Mi6BUwWVaM8Mc5XepcqkG+TSsCyyo//dmTsgYfJcsmReQorRFodil3bbJInETvjzdnS1mCsUo9pllNjT1Hg==}
+    engines: {node: '>=18.18'}
     dependencies:
+      flow-enums-runtime: 0.0.6
       terser: 5.19.2
     dev: true
 
