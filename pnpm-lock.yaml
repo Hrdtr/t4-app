@@ -420,8 +420,8 @@ importers:
         version: 1.49.2(react-dom@18.2.0)(react-native-web@0.20.0)(react-native@0.79.2)(react@18.2.0)
     devDependencies:
       '@tamagui/build':
-        specifier: ^1.126.13
-        version: 1.126.13
+        specifier: ^1.126.14
+        version: 1.126.14
 
 packages:
 
