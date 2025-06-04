@@ -154,8 +154,8 @@ importers:
         specifier: ^3.37.0
         version: 3.37.0(react-native@0.79.2)(react@18.2.0)
       react-native-svg:
-        specifier: ^13.10.0
-        version: 13.10.0(react-native@0.79.2)(react@18.2.0)
+        specifier: ^13.14.1
+        version: 13.14.1(react-native@0.79.2)(react@18.2.0)
       react-native-web:
         specifier: ^0.19.7
         version: 0.19.7(react-dom@18.2.0)(react@18.2.0)
@@ -338,7 +338,7 @@ importers:
         version: 1.126.13(react-dom@18.2.0)(react-native@0.79.2)(react@19.1.0)
       '@tamagui/lucide-icons':
         specifier: ^1.126.13
-        version: 1.126.13(react-dom@18.2.0)(react-native-svg@13.10.0)(react-native@0.79.2)(react@19.1.0)
+        version: 1.126.13(react-dom@18.2.0)(react-native-svg@13.14.1)(react-native@0.79.2)(react@19.1.0)
       '@tamagui/shorthands':
         specifier: ^1.126.13
         version: 1.126.13(react-dom@18.2.0)(react@19.1.0)
@@ -4960,7 +4960,7 @@ packages:
       - immer
     dev: false
 
-  /@tamagui/helpers-icon@1.126.13(react-dom@18.2.0)(react-native-svg@13.10.0)(react-native@0.79.2)(react@19.1.0):
+  /@tamagui/helpers-icon@1.126.13(react-dom@18.2.0)(react-native-svg@13.14.1)(react-native@0.79.2)(react@19.1.0):
     resolution: {integrity: sha512-BCjlnA1YpGQzfP+3LrPMjiOFIpDVqcFrj9gCRsRsTc3gcqLmY5Lq+C2hDdYNW35ZnLayskr2siUoXkdNKp6l+Q==}
     peerDependencies:
       react: '*'
@@ -4968,7 +4968,7 @@ packages:
     dependencies:
       '@tamagui/core': 1.126.13(react-dom@18.2.0)(react-native@0.79.2)(react@19.1.0)
       react: 19.1.0
-      react-native-svg: 13.10.0(react-native@0.79.2)(react@19.1.0)
+      react-native-svg: 13.14.1(react-native@0.79.2)(react@19.1.0)
     transitivePeerDependencies:
       - react-dom
       - react-native
@@ -5081,16 +5081,16 @@ packages:
       - react-native
     dev: false
 
-  /@tamagui/lucide-icons@1.126.13(react-dom@18.2.0)(react-native-svg@13.10.0)(react-native@0.79.2)(react@19.1.0):
+  /@tamagui/lucide-icons@1.126.13(react-dom@18.2.0)(react-native-svg@13.14.1)(react-native@0.79.2)(react@19.1.0):
     resolution: {integrity: sha512-qdm0aaNzqt/By+pehvE0k+Ujs259FDpoiINZVEdUCTr2SiOlOJDFZA20WnQExciqQlVv9+jF9RGqq0KnL9ZyaA==}
     peerDependencies:
       react: '*'
       react-native-svg: '>=12'
     dependencies:
       '@tamagui/core': 1.126.13(react-dom@18.2.0)(react-native@0.79.2)(react@19.1.0)
-      '@tamagui/helpers-icon': 1.126.13(react-dom@18.2.0)(react-native-svg@13.10.0)(react-native@0.79.2)(react@19.1.0)
+      '@tamagui/helpers-icon': 1.126.13(react-dom@18.2.0)(react-native-svg@13.14.1)(react-native@0.79.2)(react@19.1.0)
       react: 19.1.0
-      react-native-svg: 13.10.0(react-native@0.79.2)(react@19.1.0)
+      react-native-svg: 13.14.1(react-native@0.79.2)(react@19.1.0)
     transitivePeerDependencies:
       - react-dom
       - react-native
@@ -15300,8 +15300,8 @@ packages:
       warn-once: 0.1.1
     dev: false
 
-  /react-native-svg@13.10.0(react-native@0.79.2)(react@18.2.0):
-    resolution: {integrity: sha512-D/oYTmUi5nsA/2Nw4WYlF1UUi3vZqhpESpiEhpYCIFB/EMd6vz4A/uq3tIzZFcfa5z2oAdGSxRU1TaYr8IcPlQ==}
+  /react-native-svg@13.14.1(react-native@0.79.2)(react@18.2.0):
+    resolution: {integrity: sha512-0DSa0EOySzV0J9utmRFVE5Vr4mKRXA7GtH1Ga1B6fzR967HGFW1ytH6hmnOf36316hjYpXMMB7s4oVe1FqghlQ==}
     peerDependencies:
       react: '*'
       react-native: '*'
@@ -15312,8 +15312,8 @@ packages:
       react-native: 0.79.2(@babel/core@7.27.4)(react@18.2.0)
     dev: false
 
-  /react-native-svg@13.10.0(react-native@0.79.2)(react@19.1.0):
-    resolution: {integrity: sha512-D/oYTmUi5nsA/2Nw4WYlF1UUi3vZqhpESpiEhpYCIFB/EMd6vz4A/uq3tIzZFcfa5z2oAdGSxRU1TaYr8IcPlQ==}
+  /react-native-svg@13.14.1(react-native@0.79.2)(react@19.1.0):
+    resolution: {integrity: sha512-0DSa0EOySzV0J9utmRFVE5Vr4mKRXA7GtH1Ga1B6fzR967HGFW1ytH6hmnOf36316hjYpXMMB7s4oVe1FqghlQ==}
     peerDependencies:
       react: '*'
       react-native: '*'
