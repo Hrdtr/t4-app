@@ -21,7 +21,7 @@
     "@shopify/flash-list": "^1.8.2",
     "@supabase/supabase-js": "^2.49.10",
     "@tamagui/animations-react-native": "^1.126.14",
-    "@tamagui/font-inter": "^1.126.13",
+    "@tamagui/font-inter": "^1.126.14",
     "@tamagui/react-native-media-driver": "^1.126.13",
     "@tamagui/shorthands": "^1.126.13",
     "@tamagui/themes": "^1.126.13",
