@@ -398,8 +398,8 @@ importers:
         specifier: ^1.126.14
         version: 1.126.14(react-dom@18.2.0)(react-native@0.79.2)(react@18.2.0)
       '@tamagui/react-native-media-driver':
-        specifier: ^1.126.13
-        version: 1.126.13(react-dom@18.2.0)(react-native@0.79.2)(react@18.2.0)
+        specifier: ^1.126.14
+        version: 1.126.14(react-dom@18.2.0)(react-native@0.79.2)(react@18.2.0)
       '@tamagui/shorthands':
         specifier: ^1.126.13
         version: 1.126.13(react-dom@18.2.0)(react@18.2.0)
