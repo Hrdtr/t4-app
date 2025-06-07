@@ -15,7 +15,7 @@
     "url": "https://github.com/timothymiller/t4-app"
   },
   "engines": {
-    "vscode": "^1.80.0"
+    "vscode": "^1.100.3"
   },
   "categories": [
     "Other"
@@ -49,7 +49,7 @@
     "@types/glob": "^8.1.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "^18.16.19",
-    "@types/vscode": "^1.80.0",
+    "@types/vscode": "^1.100.0",
     "@typescript-eslint/eslint-plugin": "^6.2.0",
     "@typescript-eslint/parser": "^6.2.0",
     "@vscode/test-electron": "^2.5.2",
