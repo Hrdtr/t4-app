@@ -39,7 +39,7 @@
     "node-gyp": "^9.4.1",
     "prettier": "^3.5.3",
     "react-native-url-polyfill": "^2.0.0",
-    "turbo": "^1.10.12",
+    "turbo": "^1.13.4",
     "typescript": "^5.1.6"
   },
   "engines": {
