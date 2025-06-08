@@ -373,8 +373,8 @@ importers:
         specifier: 4.14.1
         version: 4.14.1(react-native@0.79.3)(react@19.1.0)
       solito:
-        specifier: ^4.0.1
-        version: 4.0.1
+        specifier: ^4.4.1
+        version: 4.4.1
     devDependencies:
       '@types/react':
         specifier: ^18.2.18
@@ -16311,10 +16311,10 @@ packages:
       smart-buffer: 4.2.0
     dev: false
 
-  /solito@4.0.1:
-    resolution: {integrity: sha512-P6dvy7+5kN0eay4Z4wm2/g/cVBaRsorxsp8SupA+rUY2SiKlViCwdMQlvInkxka056SK6eMrsRQXbjiI/vLR1w==}
+  /solito@4.4.1:
+    resolution: {integrity: sha512-5+XtaaOjRPV+q6uV9DruD2VRwtPpoLkZevQW3INGgRpsJNjulbd6JKlHoNeFRAvEJLJNU+nKbtv6Tq2pTxu2Aw==}
     dependencies:
-      typescript: 5.1.6
+      typescript: 5.8.3
     dev: false
 
   /sonner@2.0.4(react-dom@18.2.0)(react@18.2.0):
@@ -17307,7 +17307,6 @@ packages:
     resolution: {integrity: sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==}
     engines: {node: '>=14.17'}
     hasBin: true
-    dev: true
 
   /ua-parser-js@1.0.35:
     resolution: {integrity: sha512-fKnGuqmTBnIE+/KXSzCn4db8RTigUzw1AN0DmdU6hJovUTbYJKyqj+8Mt1c4VfRDnOVJnENmfYkIPZ946UrSAA==}
