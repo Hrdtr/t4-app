@@ -252,8 +252,8 @@ importers:
         specifier: ^18.16.19
         version: 18.16.19
       '@types/vscode':
-        specifier: ^1.80.0
-        version: 1.80.0
+        specifier: ^1.100.0
+        version: 1.100.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.2.0
         version: 6.2.0(@typescript-eslint/parser@6.2.0)(eslint@8.57.1)(typescript@5.8.3)
@@ -6383,8 +6383,8 @@ packages:
     resolution: {integrity: sha512-MFETx3tbTjE7Uk6vvnWINA/1iJ7LuMdO4fcq8UfF0pRbj01aGLduVvQcRyswuACJdpnHgg8E3rQLhaRdNEJS0w==}
     dev: false
 
-  /@types/vscode@1.80.0:
-    resolution: {integrity: sha512-qK/CmOdS2o7ry3k6YqU4zD3R2AYlJfbwBoSbKpBoP+GpXNE+0NEgJOli4n0bm0diK5kfBnchgCEj4igQz/44Hg==}
+  /@types/vscode@1.100.0:
+    resolution: {integrity: sha512-4uNyvzHoraXEeCamR3+fzcBlh7Afs4Ifjs4epINyUX/jvdk0uzLnwiDY35UKDKnkCHP5Nu3dljl2H8lR6s+rQw==}
     dev: true
 
   /@types/ws@8.18.1:
