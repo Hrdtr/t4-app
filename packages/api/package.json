@@ -29,6 +29,6 @@
     "drizzle-kit": "^0.31.1",
     "eslint": "^8.57.1",
     "typescript": "^5.8.3",
-    "wrangler": "^3.4.0"
+    "wrangler": "^3.114.9"
   }
 }
