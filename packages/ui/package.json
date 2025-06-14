@@ -25,7 +25,7 @@
     "@tamagui/react-native-media-driver": "^1.126.16",
     "@tamagui/shorthands": "^1.126.16",
     "@tamagui/themes": "^1.126.16",
-    "@tamagui/toast": "^1.126.14",
+    "@tamagui/toast": "^1.126.16",
     "@tanstack/react-virtual": "^3.13.10",
     "jotai": "^2.12.5",
     "tamagui": "^1.49.2"
