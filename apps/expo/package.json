@@ -21,7 +21,7 @@
     "@shopify/flash-list": "^1.8.3",
     "@t4/ui": "*",
     "app": "*",
-    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-module-resolver": "^5.0.2",
     "burnt": "^0.13.0",
     "expo": "^49.0.23",
     "expo-constants": "~14.5.1",
