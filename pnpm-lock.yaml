@@ -420,8 +420,8 @@ importers:
         version: 1.49.2(react-dom@18.3.1)(react-native-web@0.20.0)(react-native@0.80.0)(react@18.3.1)
     devDependencies:
       '@tamagui/build':
-        specifier: ^1.128.0
-        version: 1.128.0
+        specifier: ^1.128.1
+        version: 1.128.1
 
 packages:
 
@@ -4665,14 +4665,6 @@ packages:
       - supports-color
     dev: true
 
-  /@tamagui/babel-plugin-fully-specified@1.128.0:
-    resolution: {integrity: sha512-KAt+h+mH+mv05b4h+PlUwwhqfGTEIGGiuLjf5Sc4LEmFxz/HjdqjOfrWYVeT6tKj39mss3fjPBUqokstC+0ovA==}
-    dependencies:
-      '@babel/core': 7.27.4
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /@tamagui/babel-plugin-fully-specified@1.128.1:
     resolution: {integrity: sha512-pntVhzMIiG+XVtXAC42QINbN4ZTFwJUYmOOYgwtdeAG32EvuEUJge6JFnHPEitr4U+kCdmIdcimcO0ABuohKng==}
     dependencies:
@@ -4707,30 +4699,6 @@ packages:
       '@swc/core': 1.11.29(@swc/helpers@0.5.17)
       '@tamagui/babel-plugin-fully-specified': 1.126.18
       '@types/fs-extra': 9.0.13
-      chokidar: 3.5.3
-      esbuild: 0.25.5
-      esbuild-plugin-es5: 2.1.1(esbuild@0.25.5)
-      esbuild-register: 3.6.0(esbuild@0.25.5)
-      execa: 5.1.1
-      fast-glob: 3.3.1
-      fs-extra: 11.3.0
-      lodash.debounce: 4.0.8
-      oxc-transform: 0.47.1
-      typescript: 5.8.3
-    transitivePeerDependencies:
-      - '@swc/helpers'
-      - supports-color
-    dev: true
-
-  /@tamagui/build@1.128.0:
-    resolution: {integrity: sha512-1xc1a5zhsj9pvP/mP4a7cF0Cwsz0NJydwbujyG9hYdDLvNbGccHwI1PoH081PIYSIQpaCl/Q0dAXGMXsu9SV6w==}
-    hasBin: true
-    dependencies:
-      '@babel/core': 7.27.4
-      '@swc/core': 1.11.29(@swc/helpers@0.5.17)
-      '@tamagui/babel-plugin-fully-specified': 1.128.0
-      '@types/fs-extra': 9.0.13
-      '@typescript/native-preview': 7.0.0-dev.20250619.1
       chokidar: 3.5.3
       esbuild: 0.25.5
       esbuild-plugin-es5: 2.1.1(esbuild@0.25.5)
