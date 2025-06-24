@@ -18,8 +18,8 @@ importers:
         specifier: ^0.24.0
         version: 0.24.0
       '@supabase/supabase-js':
-        specifier: ^2.50.0
-        version: 2.50.0
+        specifier: ^2.50.1
+        version: 2.50.1(ws@8.18.2)
       check-dependency-version-consistency:
         specifier: ^4.1.1
         version: 4.1.1
@@ -186,10 +186,10 @@ importers:
     dependencies:
       '@supabase/auth-helpers-nextjs':
         specifier: ^0.10.0
-        version: 0.10.0(@supabase/supabase-js@2.50.0)
+        version: 0.10.0(@supabase/supabase-js@2.50.1)
       '@supabase/auth-helpers-react':
         specifier: ^0.5.0
-        version: 0.5.0(@supabase/supabase-js@2.50.0)
+        version: 0.5.0(@supabase/supabase-js@2.50.1)
       '@t4/ui':
         specifier: '*'
         version: link:../../packages/ui
@@ -389,8 +389,8 @@ importers:
         specifier: ^1.8.3
         version: 1.8.3(@babel/runtime@7.27.6)(react-native@0.80.0)(react@18.3.1)
       '@supabase/supabase-js':
-        specifier: ^2.50.0
-        version: 2.50.0
+        specifier: ^2.50.1
+        version: 2.50.1(ws@8.18.2)
       '@tamagui/animations-react-native':
         specifier: ^1.129.0
         version: 1.129.0(react-dom@18.3.1)(react@18.3.1)
@@ -4261,33 +4261,33 @@ packages:
     dependencies:
       '@sinonjs/commons': 3.0.0
 
-  /@supabase/auth-helpers-nextjs@0.10.0(@supabase/supabase-js@2.50.0):
+  /@supabase/auth-helpers-nextjs@0.10.0(@supabase/supabase-js@2.50.1):
     resolution: {integrity: sha512-2dfOGsM4yZt0oS4TPiE7bD4vf7EVz7NRz/IJrV6vLg0GP7sMUx8wndv2euLGq4BjN9lUCpu6DG/uCC8j+ylwPg==}
     deprecated: This package is now deprecated - please use the @supabase/ssr package instead.
     peerDependencies:
       '@supabase/supabase-js': ^2.39.8
     dependencies:
-      '@supabase/auth-helpers-shared': 0.7.0(@supabase/supabase-js@2.50.0)
-      '@supabase/supabase-js': 2.50.0
+      '@supabase/auth-helpers-shared': 0.7.0(@supabase/supabase-js@2.50.1)
+      '@supabase/supabase-js': 2.50.1(ws@8.18.2)
       set-cookie-parser: 2.6.0
     dev: false
 
-  /@supabase/auth-helpers-react@0.5.0(@supabase/supabase-js@2.50.0):
+  /@supabase/auth-helpers-react@0.5.0(@supabase/supabase-js@2.50.1):
     resolution: {integrity: sha512-5QSaV2CGuhDhd7RlQCoviVEAYsP7XnrFMReOcBazDvVmqSIyjKcDwhLhWvnrxMOq5qjOaA44MHo7wXqDiF0puQ==}
     deprecated: This package is now deprecated - please use the @supabase/ssr package instead.
     peerDependencies:
       '@supabase/supabase-js': ^2.39.8
     dependencies:
-      '@supabase/supabase-js': 2.50.0
+      '@supabase/supabase-js': 2.50.1(ws@8.18.2)
     dev: false
 
-  /@supabase/auth-helpers-shared@0.7.0(@supabase/supabase-js@2.50.0):
+  /@supabase/auth-helpers-shared@0.7.0(@supabase/supabase-js@2.50.1):
     resolution: {integrity: sha512-FBFf2ei2R7QC+B/5wWkthMha8Ca2bWHAndN+syfuEUUfufv4mLcAgBCcgNg5nJR8L0gZfyuaxgubtOc9aW3Cpg==}
     deprecated: This package is now deprecated - please use the @supabase/ssr package instead.
     peerDependencies:
       '@supabase/supabase-js': ^2.39.8
     dependencies:
-      '@supabase/supabase-js': 2.50.0
+      '@supabase/supabase-js': 2.50.1(ws@8.18.2)
       jose: 4.14.4
     dev: false
 
@@ -4316,16 +4316,14 @@ packages:
       '@supabase/node-fetch': 2.6.15
     dev: false
 
-  /@supabase/realtime-js@2.11.10:
-    resolution: {integrity: sha512-SJKVa7EejnuyfImrbzx+HaD9i6T784khuw1zP+MBD7BmJYChegGxYigPzkKX8CK8nGuDntmeSD3fvriaH0EGZA==}
+  /@supabase/realtime-js@2.11.13(ws@8.18.2):
+    resolution: {integrity: sha512-X2Gs+f0qjLr/60UTCidxRj+FCI/ABNar93aeMQj+v/7sm4RYOWlKNw46xmwWXL8zAL30wsHG2jD7ZvCH6zDv1A==}
     dependencies:
       '@supabase/node-fetch': 2.6.15
       '@types/phoenix': 1.6.6
-      '@types/ws': 8.18.1
-      ws: 8.18.2
+      isows: 1.0.7(ws@8.18.2)
     transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
+      - ws
     dev: false
 
   /@supabase/storage-js@2.7.1:
@@ -4334,18 +4332,17 @@ packages:
       '@supabase/node-fetch': 2.6.15
     dev: false
 
-  /@supabase/supabase-js@2.50.0:
-    resolution: {integrity: sha512-M1Gd5tPaaghYZ9OjeO1iORRqbTWFEz/cF3pPubRnMPzA+A8SiUsXXWDP+DWsASZcjEcVEcVQIAF38i5wrijYOg==}
+  /@supabase/supabase-js@2.50.1(ws@8.18.2):
+    resolution: {integrity: sha512-X4vniGZ57wJ0QF20GIX6DgLYKynwYAtq/JHqF3GEXzABKpSziLggaKL1aTfMQ2cFkVrzoEuZha5VhilO9F87Lw==}
     dependencies:
       '@supabase/auth-js': 2.70.0
       '@supabase/functions-js': 2.4.4
       '@supabase/node-fetch': 2.6.15
       '@supabase/postgrest-js': 1.19.4
-      '@supabase/realtime-js': 2.11.10
+      '@supabase/realtime-js': 2.11.13(ws@8.18.2)
       '@supabase/storage-js': 2.7.1
     transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
+      - ws
     dev: false
 
   /@swc/core-darwin-arm64@1.11.29:
@@ -7196,12 +7193,6 @@ packages:
   /@types/vscode@1.101.0:
     resolution: {integrity: sha512-ZWf0IWa+NGegdW3iU42AcDTFHWW7fApLdkdnBqwYEtHVIBGbTu0ZNQKP/kX3Ds/uMJXIMQNAojHR4vexCEEz5Q==}
     dev: true
-
-  /@types/ws@8.18.1:
-    resolution: {integrity: sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg==}
-    dependencies:
-      '@types/node': 18.19.112
-    dev: false
 
   /@types/yargs-parser@21.0.0:
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==}
@@ -13337,6 +13328,14 @@ packages:
   /isobject@3.0.1:
     resolution: {integrity: sha512-WhB9zCku7EGTj/HQQRz5aUQEUeoQZH2bWcltRErOpymJ4boYE6wL9Tbr23krRPSZ+C5zqNSrSw+Cc7sZZ4b7vg==}
     engines: {node: '>=0.10.0'}
+
+  /isows@1.0.7(ws@8.18.2):
+    resolution: {integrity: sha512-I1fSfDCZL5P0v33sVqeTDSpcstAg/N+wF5HS033mogOVIp4B+oHC7oOCsA3axAbBSGTJ8QubbNmnIRN/h8U7hg==}
+    peerDependencies:
+      ws: '*'
+    dependencies:
+      ws: 8.18.2
+    dev: false
 
   /istanbul-lib-coverage@3.2.2:
     resolution: {integrity: sha512-O8dpsF+r0WV/8MNRKfnmrtCWhuKjxrq2w+jpzBL5UZKTi2LeVWnWOmWRxFlesJONmc+wLAGvKQZEOanko0LFTg==}
