@@ -307,8 +307,8 @@ importers:
         specifier: ^7.4.4
         version: 7.4.4
       drizzle-kit:
-        specifier: ^0.31.2
-        version: 0.31.2
+        specifier: ^0.31.3
+        version: 0.31.3
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -10272,8 +10272,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /drizzle-kit@0.31.2:
-    resolution: {integrity: sha512-Z2Uqxvu4HNFzlDkG3NQ2BYpII8SlOMkpjsC5XFh9TsYP2nYhfVamVjQ8spiMFXH3vGOyUt1cQ5FZ1JSgl6+8QQ==}
+  /drizzle-kit@0.31.3:
+    resolution: {integrity: sha512-M8/o1oNvTzb0nhMch2W5i+Dz2YUp7ZjAeVx4L85hLjnFMxkB+LkKHTGg2MPAGc6ENFSVyozrxMa3DPqVrJt94w==}
     hasBin: true
     dependencies:
       '@drizzle-team/brocli': 0.10.2
@@ -14816,7 +14816,7 @@ packages:
     engines: {node: '>=18.18'}
     dependencies:
       '@babel/traverse': 7.27.4
-      '@babel/traverse--for-generate-function-map': /@babel/traverse@7.27.4
+      '@babel/traverse--for-generate-function-map': /@babel/traverse@7.27.7
       '@babel/types': 7.27.3
       flow-enums-runtime: 0.0.6
       invariant: 2.2.4
