@@ -410,8 +410,8 @@ importers:
         specifier: ^1.126.18
         version: 1.126.18(react-dom@18.3.1)(react-native@0.80.0)(react@18.3.1)
       '@tanstack/react-virtual':
-        specifier: ^3.13.11
-        version: 3.13.11(react-dom@18.3.1)(react@18.3.1)
+        specifier: ^3.13.12
+        version: 3.13.12(react-dom@18.3.1)(react@18.3.1)
       jotai:
         specifier: ^2.12.5
         version: 2.12.5(react@18.3.1)
@@ -3161,7 +3161,7 @@ packages:
       react: ^16 || ^17 || ^18
       react-dom: ^16 || ^17 || ^18
     dependencies:
-      '@tanstack/react-virtual': 3.13.11(react-dom@18.3.1)(react@18.3.1)
+      '@tanstack/react-virtual': 3.13.12(react-dom@18.3.1)(react@18.3.1)
       client-only: 0.0.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -7096,19 +7096,19 @@ packages:
       react: 19.1.0
     dev: false
 
-  /@tanstack/react-virtual@3.13.11(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-u5EaOSJOq08T9NXFuDopMdxZBNDFuEMohIFFU45fBYDXXh9SjYdbpNq1OLFSOpQnDRPjqgmY96ipZTkzom9t9Q==}
+  /@tanstack/react-virtual@3.13.12(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-Gd13QdxPSukP8ZrkbgS2RwoZseTTbQPLnQEn7HY/rqtM+8Zt95f7xKC7N0EsKs7aoz0WzZ+fditZux+F8EzYxA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
     dependencies:
-      '@tanstack/virtual-core': 3.13.11
+      '@tanstack/virtual-core': 3.13.12
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     dev: false
 
-  /@tanstack/virtual-core@3.13.11:
-    resolution: {integrity: sha512-ORL6UyuZJ0D9X33LDR4TcgcM+K2YiS2j4xbvH1vnhhObwR1Z4dKwPTL/c0kj2Yeb4Yp2lBv1wpyVaqlohk8zpg==}
+  /@tanstack/virtual-core@3.13.12:
+    resolution: {integrity: sha512-1YBOJfRHV4sXUmWsFSf5rQor4Ss82G8dQWLRbnk3GA4jeP8hQt1hxXh0tmflpC0dz3VgEv/1+qwPyLeWkQuPFA==}
     dev: false
 
   /@theguild/remark-mermaid@0.0.5(react@18.3.1):
