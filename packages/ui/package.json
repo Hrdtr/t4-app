@@ -31,6 +31,6 @@
     "tamagui": "^1.49.2"
   },
   "devDependencies": {
-    "@tamagui/build": "^1.129.5"
+    "@tamagui/build": "^1.129.11"
   }
 }
