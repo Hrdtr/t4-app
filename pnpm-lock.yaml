@@ -194,8 +194,8 @@ importers:
         specifier: '*'
         version: link:../../packages/ui
       '@tamagui/next-theme':
-        specifier: ^1.126.18
-        version: 1.126.18(react@18.3.1)
+        specifier: ^1.129.11
+        version: 1.129.11(react@18.3.1)
       app:
         specifier: '*'
         version: link:../../packages/app
@@ -5137,6 +5137,14 @@ packages:
       react: 19.1.0
     dev: false
 
+  /@tamagui/constants@1.129.11(react@18.3.1):
+    resolution: {integrity: sha512-6rXcxm6uXXdo7dfevTNlAgKSDScwDrp5LavgaYc1Ai55HEKvKuOUMOCZJ9v6W837Dxz070ah7QsoE6B7Uidciw==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 18.3.1
+    dev: false
+
   /@tamagui/constants@1.129.5(react@18.3.1):
     resolution: {integrity: sha512-U0jv1Sl6by8KSZXzWjiERnZ2qq8AcTn6rCZOkeilR4obY6jZu1iUolRxJ3hgX2PnGiHw9jNPzsIugtl5anK6Jg==}
     peerDependencies:
@@ -5727,13 +5735,13 @@ packages:
       - webpack
     dev: true
 
-  /@tamagui/next-theme@1.126.18(react@18.3.1):
-    resolution: {integrity: sha512-TbZNqq6QiX71/rl8l2tuHghWo8Qn/sfHXOf/MrEotmmNL0gQ8Q6EA0bqQD1fV3er7bqErVtG38dYo3jbQP4XLg==}
+  /@tamagui/next-theme@1.129.11(react@18.3.1):
+    resolution: {integrity: sha512-qv+szvI2Hf0V9UoJdyh537vCgh+70sSd1de2wNEfoB7J+aVFCRF1qR4stin9QbJ4PaKTakCNdMOk8lrSDsQRzw==}
     peerDependencies:
       react: '*'
     dependencies:
-      '@tamagui/constants': 1.126.18(react@18.3.1)
-      '@tamagui/use-event': 1.126.18(react@18.3.1)
+      '@tamagui/constants': 1.129.11(react@18.3.1)
+      '@tamagui/use-event': 1.129.11(react@18.3.1)
       react: 18.3.1
     dev: false
 
@@ -6768,6 +6776,15 @@ packages:
     dependencies:
       '@tamagui/constants': 1.128.1(react@19.1.0)
       react: 19.1.0
+    dev: false
+
+  /@tamagui/use-event@1.129.11(react@18.3.1):
+    resolution: {integrity: sha512-QRx8Gf3ZVVsGbbl7PuAB9zoJhBBz//a2zsAo/RjlKwBfUWUVjzo7N9yu2sezB3Rdw8zpg5WlGaMuwH+fSi9NCg==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      '@tamagui/constants': 1.129.11(react@18.3.1)
+      react: 18.3.1
     dev: false
 
   /@tamagui/use-event@1.129.5(react@18.3.1):
