@@ -16,7 +16,7 @@
     "@tamagui/colors": "^1.129.4",
     "@tamagui/font-inter": "^1.128.1",
     "@tamagui/lucide-icons": "^1.128.1",
-    "@tamagui/shorthands": "^1.126.18",
+    "@tamagui/shorthands": "^1.129.11",
     "@tamagui/themes": "^1.126.18",
     "@tanstack/react-query": "^5.81.5",
     "@trpc/client": "^10.45.2",
