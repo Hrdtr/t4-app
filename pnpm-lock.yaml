@@ -292,7 +292,7 @@ importers:
         version: 3.2.0
       drizzle-orm:
         specifier: ^0.44.2
-        version: 0.44.2(@cloudflare/workers-types@4.20250701.0)(better-sqlite3@8.7.0)
+        version: 0.44.2(@cloudflare/workers-types@4.20250701.0)(better-sqlite3@12.2.0)
       hono:
         specifier: ^3.12.12
         version: 3.12.12
@@ -301,8 +301,8 @@ importers:
         specifier: ^4.20250701.0
         version: 4.20250701.0
       better-sqlite3:
-        specifier: ^8.7.0
-        version: 8.7.0
+        specifier: ^12.2.0
+        version: 12.2.0
       dotenv-cli:
         specifier: ^7.4.4
         version: 7.4.4
@@ -8812,8 +8812,9 @@ packages:
       open: 8.4.2
     dev: false
 
-  /better-sqlite3@8.7.0:
-    resolution: {integrity: sha512-99jZU4le+f3G6aIl6PmmV0cxUIWqKieHxsiF7G34CVFiE+/UabpYqkU0NJIkY/96mQKikHeBjtR27vFfs5JpEw==}
+  /better-sqlite3@12.2.0:
+    resolution: {integrity: sha512-eGbYq2CT+tos1fBwLQ/tkBt9J5M3JEHjku4hbvQUePCckkvVf14xWj+1m7dGoK81M/fOjFT7yM9UMeKT/+vFLQ==}
+    engines: {node: 20.x || 22.x || 23.x || 24.x}
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
@@ -10212,15 +10213,10 @@ packages:
     engines: {node: '>=0.10'}
     hasBin: true
 
-  /detect-libc@2.0.2:
-    resolution: {integrity: sha512-UX6sGumvvqSaXgdKGUsgZWqcUyIXZ/vZTrlRT/iobiKhGL0zL4d3osHj3uqllWJK+i+sixDS/3COVEOFbupFyw==}
-    engines: {node: '>=8'}
-
   /detect-libc@2.0.4:
     resolution: {integrity: sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA==}
     engines: {node: '>=8'}
     requiresBuild: true
-    dev: true
 
   /detect-node-es@1.1.0:
     resolution: {integrity: sha512-ypdmJU/TbBby2Dxibuv7ZLW3Bs1QEmM7nHjEANfohJLvE0XVujisn1qPJcZxg+qDucsr+bP6fLD1rPS3AhJ7EQ==}
@@ -10374,7 +10370,7 @@ packages:
       - supports-color
     dev: true
 
-  /drizzle-orm@0.44.2(@cloudflare/workers-types@4.20250701.0)(better-sqlite3@8.7.0):
+  /drizzle-orm@0.44.2(@cloudflare/workers-types@4.20250701.0)(better-sqlite3@12.2.0):
     resolution: {integrity: sha512-zGAqBzWWkVSFjZpwPOrmCrgO++1kZ5H/rZ4qTGeGOe18iXGVJWf3WPfHOVwFIbmi8kHjfJstC6rJomzGx8g/dQ==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
@@ -10467,7 +10463,7 @@ packages:
         optional: true
     dependencies:
       '@cloudflare/workers-types': 4.20250701.0
-      better-sqlite3: 8.7.0
+      better-sqlite3: 12.2.0
     dev: false
 
   /dunder-proto@1.0.1:
@@ -16705,7 +16701,7 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
-      detect-libc: 2.0.2
+      detect-libc: 2.0.4
       expand-template: 2.0.3
       github-from-package: 0.0.0
       minimist: 1.2.8
