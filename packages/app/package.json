@@ -15,7 +15,7 @@
     "@tamagui/animations-react-native": "^1.130.8",
     "@tamagui/colors": "^1.130.8",
     "@tamagui/font-inter": "^1.130.8",
-    "@tamagui/lucide-icons": "^1.128.1",
+    "@tamagui/lucide-icons": "^1.130.8",
     "@tamagui/shorthands": "^1.126.18",
     "@tamagui/themes": "^1.126.18",
     "@tanstack/react-query": "^5.81.5",
