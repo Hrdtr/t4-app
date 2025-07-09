@@ -133,8 +133,8 @@ importers:
         specifier: ^2.9.4
         version: 2.9.4(expo@49.0.23)
       expo-updates:
-        specifier: ^0.28.16
-        version: 0.28.16(expo@49.0.23)(react@18.3.1)
+        specifier: ^0.28.17
+        version: 0.28.17(expo@49.0.23)(react@18.3.1)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -2671,6 +2671,27 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
+  /@expo/config-plugins@10.1.2:
+    resolution: {integrity: sha512-IMYCxBOcnuFStuK0Ay+FzEIBKrwW8OVUMc65+v0+i7YFIIe8aL342l7T4F8lR4oCfhXn7d6M5QPgXvjtc/gAcw==}
+    dependencies:
+      '@expo/config-types': 53.0.5
+      '@expo/json-file': 9.1.5
+      '@expo/plist': 0.3.5
+      '@expo/sdk-runtime-versions': 1.0.0
+      chalk: 4.1.2
+      debug: 4.4.1(supports-color@8.1.1)
+      getenv: 2.0.0
+      glob: 10.4.5
+      resolve-from: 5.0.0
+      semver: 7.7.2
+      slash: 3.0.0
+      slugify: 1.6.6
+      xcode: 3.0.1
+      xml2js: 0.6.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
   /@expo/config-plugins@7.2.5:
     resolution: {integrity: sha512-w+5ccu1IxBHgyQk9CPFKLZOk8yZQEyTjbJwOzESK1eR7QwosbcsLkN1c1WWUZYiCXwORu3UTwJYll4+X2xxJhQ==}
     dependencies:
@@ -2740,6 +2761,26 @@ packages:
       sucrase: 3.35.0
     transitivePeerDependencies:
       - supports-color
+
+  /@expo/config@11.0.13:
+    resolution: {integrity: sha512-TnGb4u/zUZetpav9sx/3fWK71oCPaOjZHoVED9NaEncktAd0Eonhq5NUghiJmkUGt3gGSjRAEBXiBbbY9/B1LA==}
+    dependencies:
+      '@babel/code-frame': 7.10.4
+      '@expo/config-plugins': 10.1.2
+      '@expo/config-types': 53.0.5
+      '@expo/json-file': 9.1.5
+      deepmerge: 4.3.1
+      getenv: 2.0.0
+      glob: 10.4.5
+      require-from-string: 2.0.2
+      resolve-from: 5.0.0
+      resolve-workspace-root: 2.0.0
+      semver: 7.7.2
+      slugify: 1.6.6
+      sucrase: 3.35.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
 
   /@expo/config@8.1.2:
     resolution: {integrity: sha512-4e7hzPj50mQIlsrzOH6XZ36O094mPfPTIDIH4yv49bWNMc7GFLTofB/lcT+QyxiLaJuC0Wlk9yOLB8DIqmtwug==}
@@ -11833,7 +11874,7 @@ packages:
     peerDependencies:
       expo: '*'
     dependencies:
-      '@expo/config': 11.0.12
+      '@expo/config': 11.0.13
       expo: 49.0.23(@babel/core@7.28.0)
       expo-json-utils: 0.15.0
     transitivePeerDependencies:
@@ -11978,16 +12019,16 @@ packages:
       expo: 49.0.23(@babel/core@7.28.0)
     dev: false
 
-  /expo-updates@0.28.16(expo@49.0.23)(react@18.3.1):
-    resolution: {integrity: sha512-C9e/xR4tsWADoYjBVhPmvgKubIcnHm5tCUOr1Ivc8cEIp8AOdnL3aC1YHrRZz3gGj8GCAq9jF7agv7AeBg2trQ==}
+  /expo-updates@0.28.17(expo@49.0.23)(react@18.3.1):
+    resolution: {integrity: sha512-OiKDrKk6EoBRP9AoK7/4tyj9lVtHw2IfaETIFeUCHMgx5xjgKGX/jjSwqhk8N9BJgLDIy0oD0Sb0MaEbSBb3lg==}
     hasBin: true
     peerDependencies:
       expo: '*'
       react: '*'
     dependencies:
       '@expo/code-signing-certificates': 0.0.5
-      '@expo/config': 11.0.12
-      '@expo/config-plugins': 10.1.1
+      '@expo/config': 11.0.13
+      '@expo/config-plugins': 10.1.2
       '@expo/spawn-async': 1.7.2
       arg: 4.1.0
       chalk: 4.1.2
