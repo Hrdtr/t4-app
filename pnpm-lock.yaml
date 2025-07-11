@@ -420,8 +420,8 @@ importers:
         version: 1.49.2(react-dom@18.3.1)(react-native-web@0.20.0)(react-native@0.79.5)(react@18.3.1)
     devDependencies:
       '@tamagui/build':
-        specifier: ^1.130.8
-        version: 1.130.8
+        specifier: ^1.131.3
+        version: 1.131.3
 
 packages:
 
@@ -5250,8 +5250,8 @@ packages:
       react-native: 0.79.5(@babel/core@7.28.0)(react@18.3.1)
     dev: false
 
-  /@tamagui/babel-plugin-fully-specified@1.130.8:
-    resolution: {integrity: sha512-pG+l8dMZhT6T4Fg/Glm8xMRaufQ1k/DKrbTJXGaJWpRNmR5yK37VukzgpnoIhkompk8HqJ49lXjZGySziqr+EA==}
+  /@tamagui/babel-plugin-fully-specified@1.131.3:
+    resolution: {integrity: sha512-gSfqvEZtYHIqPJ7VvnLBYGNcs9mpmDyqLy+ah4FGLF+hidyjvU9KE6vVWipnGZlwxu/Q9qIQKsMXPxiuckehCw==}
     dependencies:
       '@babel/core': 7.28.0
     transitivePeerDependencies:
@@ -5275,13 +5275,13 @@ packages:
       - supports-color
     dev: true
 
-  /@tamagui/build@1.130.8:
-    resolution: {integrity: sha512-5zWAvjgT2f6avwvuJf4dB5QSejrTn7ZNokEQ7huuTiT9Xkr+uQHam9sKMeTbFopB3E3b9+Rh9DTBcaHDqjn0AA==}
+  /@tamagui/build@1.131.3:
+    resolution: {integrity: sha512-x5MX/5bfmobW0+JwJKJi+z30Ab3WKWV/8zvB7xbFWH88wBNtv/M+Lrx7sMOBab6c0Nu4oIxM2vHp4Uy9IGJSKA==}
     hasBin: true
     dependencies:
       '@babel/core': 7.28.0
       '@swc/core': 1.11.29(@swc/helpers@0.5.17)
-      '@tamagui/babel-plugin-fully-specified': 1.130.8
+      '@tamagui/babel-plugin-fully-specified': 1.131.3
       '@types/fs-extra': 9.0.13
       '@typescript/native-preview': 7.0.0-dev.20250619.1
       chokidar: 3.5.3
@@ -5289,7 +5289,7 @@ packages:
       esbuild-plugin-es5: 2.1.1(esbuild@0.25.5)
       esbuild-register: 3.6.0(esbuild@0.25.5)
       execa: 5.1.1
-      fast-glob: 3.3.1
+      fast-glob: 3.3.3
       fs-extra: 11.3.0
       lodash.debounce: 4.0.8
       oxc-transform: 0.74.0
@@ -9524,12 +9524,6 @@ packages:
     dependencies:
       balanced-match: 1.0.2
 
-  /braces@3.0.2:
-    resolution: {integrity: sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==}
-    engines: {node: '>=8'}
-    dependencies:
-      fill-range: 7.0.1
-
   /braces@3.0.3:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
@@ -12639,17 +12633,6 @@ packages:
   /fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
 
-  /fast-glob@3.3.1:
-    resolution: {integrity: sha512-kNFPyjhh5cKjrUltxs+wFx+ZkbRaxxmZ+X0ZU31SOsxCEtP9VPgtq2teZw1DebupL5GmDaNQ6yKMMVcM41iqDg==}
-    engines: {node: '>=8.6.0'}
-    dependencies:
-      '@nodelib/fs.stat': 2.0.5
-      '@nodelib/fs.walk': 1.2.8
-      glob-parent: 5.1.2
-      merge2: 1.4.1
-      micromatch: 4.0.8
-    dev: true
-
   /fast-glob@3.3.3:
     resolution: {integrity: sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg==}
     engines: {node: '>=8.6.0'}
@@ -12734,12 +12717,6 @@ packages:
 
   /file-uri-to-path@1.0.0:
     resolution: {integrity: sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==}
-
-  /fill-range@7.0.1:
-    resolution: {integrity: sha512-qOo9F+dMUmC2Lcb4BbVvnKJxTPjCm+RRpe4gDuGrzkL7mEVl/djYSu2OdQ2Pa302N4oqkSg9ir6jaLWJ2USVpQ==}
-    engines: {node: '>=8'}
-    dependencies:
-      to-regex-range: 5.0.1
 
   /fill-range@7.1.1:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
@@ -14456,7 +14433,7 @@ packages:
       '@types/stack-utils': 2.0.1
       chalk: 4.1.2
       graceful-fs: 4.2.11
-      micromatch: 4.0.5
+      micromatch: 4.0.8
       pretty-format: 29.7.0
       slash: 3.0.0
       stack-utils: 2.0.6
@@ -16071,7 +16048,7 @@ packages:
     resolution: {integrity: sha512-DMy+ERcEW2q8Z2Po+WNXuw3c5YaUSFjAO5GsJqfEl7UjvtIuFKO6ZrKvcItdy98dwFI2N1tg3zNIdKaQT+aNdA==}
     engines: {node: '>=8.6'}
     dependencies:
-      braces: 3.0.2
+      braces: 3.0.3
       picomatch: 2.3.1
 
   /micromatch@4.0.8:
