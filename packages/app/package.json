@@ -14,7 +14,7 @@
     "@t4/ui": "*",
     "@tamagui/animations-react-native": "^1.131.3",
     "@tamagui/colors": "^1.131.3",
-    "@tamagui/font-inter": "^1.130.8",
+    "@tamagui/font-inter": "^1.131.3",
     "@tamagui/lucide-icons": "^1.130.8",
     "@tamagui/shorthands": "^1.126.18",
     "@tamagui/themes": "^1.126.18",
