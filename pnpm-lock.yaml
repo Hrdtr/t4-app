@@ -221,12 +221,12 @@ importers:
         specifier: ^1.49.2
         version: 1.49.2(react-dom@18.3.1)(react@18.3.1)
       webpack:
-        specifier: ^5.99.9
-        version: 5.99.9(esbuild@0.25.5)
+        specifier: ^5.100.1
+        version: 5.100.1(esbuild@0.25.5)
     devDependencies:
       '@tamagui/next-plugin':
         specifier: ^1.131.3
-        version: 1.131.3(@babel/core@7.28.0)(next@13.5.11)(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1)(webpack@5.99.9)
+        version: 1.131.3(@babel/core@7.28.0)(next@13.5.11)(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1)(webpack@5.100.1)
       '@types/node':
         specifier: ^18.19.118
         version: 18.19.118
@@ -6207,7 +6207,7 @@ packages:
       - react-native
     dev: false
 
-  /@tamagui/next-plugin@1.131.3(@babel/core@7.28.0)(next@13.5.11)(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1)(webpack@5.99.9):
+  /@tamagui/next-plugin@1.131.3(@babel/core@7.28.0)(next@13.5.11)(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1)(webpack@5.100.1):
     resolution: {integrity: sha512-yTGpoZcs/5mM6n4f9hVTM0xILD9q3qmQaSwpJF+AsG33QwFmKry4kGiYjFsz/n46lT6GCkTxmaV++JXtHXN9rw==}
     peerDependencies:
       next: '>=13'
@@ -6216,15 +6216,15 @@ packages:
       '@tamagui/proxy-worm': 1.131.3
       '@tamagui/react-native-svg': 1.131.3
       '@tamagui/static': 1.131.3(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1)
-      babel-loader: 9.1.3(@babel/core@7.28.0)(webpack@5.99.9)
+      babel-loader: 9.1.3(@babel/core@7.28.0)(webpack@5.100.1)
       browserslist: 4.24.5
-      css-loader: 6.8.1(webpack@5.99.9)
-      esbuild-loader: 4.3.0(webpack@5.99.9)
-      file-loader: 6.2.0(webpack@5.99.9)
-      html-webpack-plugin: 5.5.3(webpack@5.99.9)
+      css-loader: 6.8.1(webpack@5.100.1)
+      esbuild-loader: 4.3.0(webpack@5.100.1)
+      file-loader: 6.2.0(webpack@5.100.1)
+      html-webpack-plugin: 5.5.3(webpack@5.100.1)
       next: 13.5.11(@babel/core@7.28.0)(react-dom@18.3.1)(react@18.3.1)
-      tamagui-loader: 1.131.3(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1)(webpack@5.99.9)
-      url-loader: 4.1.1(file-loader@6.2.0)(webpack@5.99.9)
+      tamagui-loader: 1.131.3(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1)(webpack@5.100.1)
+      url-loader: 4.1.1(file-loader@6.2.0)(webpack@5.100.1)
     transitivePeerDependencies:
       - '@babel/core'
       - encoding
@@ -8770,6 +8770,14 @@ packages:
       mime-types: 2.1.35
       negotiator: 0.6.3
 
+  /acorn-import-phases@1.0.3(acorn@8.15.0):
+    resolution: {integrity: sha512-jtKLnfoOzm28PazuQ4dVBcE9Jeo6ha1GAJvq3N0LlNOszmTfx+wSycBehn+FN0RnyeR77IBxN/qVYMw0Rlj0Xw==}
+    engines: {node: '>=10.13.0'}
+    peerDependencies:
+      acorn: ^8.14.0
+    dependencies:
+      acorn: 8.15.0
+
   /acorn-jsx@5.3.2(acorn@8.15.0):
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
@@ -9244,7 +9252,7 @@ packages:
       - supports-color
     dev: true
 
-  /babel-loader@9.1.3(@babel/core@7.28.0)(webpack@5.99.9):
+  /babel-loader@9.1.3(@babel/core@7.28.0)(webpack@5.100.1):
     resolution: {integrity: sha512-xG3ST4DglodGf8qSwv0MdeWLhrDsw/32QMdTO5T1ZIp9gQur0HkCyFs7Awskr10JKXFXwpAhiCuYX5oGXnRGbw==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
@@ -9254,7 +9262,7 @@ packages:
       '@babel/core': 7.28.0
       find-cache-dir: 4.0.0
       schema-utils: 4.3.2
-      webpack: 5.99.9(esbuild@0.25.5)
+      webpack: 5.100.1(esbuild@0.25.5)
     dev: true
 
   /babel-plugin-istanbul@6.1.1:
@@ -10234,7 +10242,7 @@ packages:
     dependencies:
       hyphenate-style-name: 1.0.4
 
-  /css-loader@6.8.1(webpack@5.99.9):
+  /css-loader@6.8.1(webpack@5.100.1):
     resolution: {integrity: sha512-xDAXtEVGlD0gJ07iclwWVkLoZOpEvAWaSyf6W18S2pOC//K8+qUDIx8IIT3D+HjnmkJPQeesOPv5aiUaJsCM2g==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
@@ -10248,7 +10256,7 @@ packages:
       postcss-modules-values: 4.0.0(postcss@8.4.49)
       postcss-value-parser: 4.2.0
       semver: 7.7.2
-      webpack: 5.99.9(esbuild@0.25.5)
+      webpack: 5.100.1(esbuild@0.25.5)
     dev: true
 
   /css-mediaquery@0.1.2:
@@ -11542,7 +11550,7 @@ packages:
     dev: true
     optional: true
 
-  /esbuild-loader@4.3.0(webpack@5.99.9):
+  /esbuild-loader@4.3.0(webpack@5.100.1):
     resolution: {integrity: sha512-D7HeJNdkDKKMarPQO/3dlJT6RwN2YJO7ENU6RPlpOz5YxSHnUNi2yvW41Bckvi1EVwctIaLzlb0ni5ag2GINYA==}
     peerDependencies:
       webpack: ^4.40.0 || ^5.0.0
@@ -11550,7 +11558,7 @@ packages:
       esbuild: 0.25.5
       get-tsconfig: 4.10.1
       loader-utils: 2.0.4
-      webpack: 5.99.9(esbuild@0.25.5)
+      webpack: 5.100.1(esbuild@0.25.5)
       webpack-sources: 1.4.3
     dev: true
 
@@ -12704,7 +12712,7 @@ packages:
     dependencies:
       flat-cache: 3.0.4
 
-  /file-loader@6.2.0(webpack@5.99.9):
+  /file-loader@6.2.0(webpack@5.100.1):
     resolution: {integrity: sha512-qo3glqyTa61Ytg4u73GultjHGjdRyig3tG6lPtyX/jOEJvHif9uB0/OCI2Kif6ctF3caQTW2G5gym21oAsI4pw==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -12712,7 +12720,7 @@ packages:
     dependencies:
       loader-utils: 2.0.4
       schema-utils: 3.3.0
-      webpack: 5.99.9(esbuild@0.25.5)
+      webpack: 5.100.1(esbuild@0.25.5)
     dev: true
 
   /file-uri-to-path@1.0.0:
@@ -13618,7 +13626,7 @@ packages:
     resolution: {integrity: sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg==}
     dev: false
 
-  /html-webpack-plugin@5.5.3(webpack@5.99.9):
+  /html-webpack-plugin@5.5.3(webpack@5.100.1):
     resolution: {integrity: sha512-6YrDKTuqaP/TquFH7h4srYWsZx+x6k6+FbsTm0ziCwGHDP78Unr1r9F/H4+sGmMbX08GQcJ+K64x55b+7VM/jg==}
     engines: {node: '>=10.13.0'}
     peerDependencies:
@@ -13629,7 +13637,7 @@ packages:
       lodash: 4.17.21
       pretty-error: 4.0.0
       tapable: 2.2.1
-      webpack: 5.99.9(esbuild@0.25.5)
+      webpack: 5.100.1(esbuild@0.25.5)
     dev: true
 
   /htmlparser2@6.1.0:
@@ -19679,14 +19687,14 @@ packages:
       string-width: 4.2.3
       strip-ansi: 6.0.1
 
-  /tamagui-loader@1.131.3(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1)(webpack@5.99.9):
+  /tamagui-loader@1.131.3(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1)(webpack@5.100.1):
     resolution: {integrity: sha512-kcmk+JDVJMAlQN0/fcC3LvVX8U80Q7Veinvb1WTn7wrgaZtVj+j7MJuSkHUuhXXtovY20Tg80Oo9x4A0/BQLQg==}
     dependencies:
       '@tamagui/cli-color': 1.131.3
       '@tamagui/core': 1.131.3(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1)
       '@tamagui/static': 1.131.3(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1)
       '@tamagui/web': 1.131.3(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1)
-      esbuild-loader: 4.3.0(webpack@5.99.9)
+      esbuild-loader: 4.3.0(webpack@5.100.1)
       esm-resolve: 1.0.8
       fs-extra: 11.3.0
       loader-utils: 3.2.1
@@ -19836,7 +19844,7 @@ packages:
       supports-hyperlinks: 2.3.0
     dev: false
 
-  /terser-webpack-plugin@5.3.14(esbuild@0.25.5)(webpack@5.99.9):
+  /terser-webpack-plugin@5.3.14(esbuild@0.25.5)(webpack@5.100.1):
     resolution: {integrity: sha512-vkZjpUjb6OMS7dhV+tILUW6BhpDR7P2L/aQSAv+Uwk+m8KATX9EccViHTJR2qDtACKPIYndLGCyl3FMo+r2LMw==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -19858,7 +19866,7 @@ packages:
       schema-utils: 4.3.2
       serialize-javascript: 6.0.2
       terser: 5.42.0
-      webpack: 5.99.9(esbuild@0.25.5)
+      webpack: 5.100.1(esbuild@0.25.5)
 
   /terser@5.42.0:
     resolution: {integrity: sha512-UYCvU9YQW2f/Vwl+P0GfhxJxbUGLwd+5QrrGgLajzWAtC/23AX0vcise32kkP7Eu0Wu9VlzzHAXkLObgjQfFlQ==}
@@ -20550,7 +20558,7 @@ packages:
     resolution: {integrity: sha512-EGXjXJZhIHiQMK2pQukuFcL303nskqIRzWvPvV5O8miOfwoUb9G+a/Cld60kUyeaybEI94wvVClT10DtfeAExA==}
     dev: false
 
-  /url-loader@4.1.1(file-loader@6.2.0)(webpack@5.99.9):
+  /url-loader@4.1.1(file-loader@6.2.0)(webpack@5.100.1):
     resolution: {integrity: sha512-3BTV812+AVHHOJQO8O5MkWgZ5aosP7GnROJwvzLS9hWDj00lZ6Z0wNak423Lp9PBZN05N+Jk/N5Si8jRAlGyWA==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -20560,11 +20568,11 @@ packages:
       file-loader:
         optional: true
     dependencies:
-      file-loader: 6.2.0(webpack@5.99.9)
+      file-loader: 6.2.0(webpack@5.100.1)
       loader-utils: 2.0.4
       mime-types: 2.1.35
       schema-utils: 3.3.0
-      webpack: 5.99.9(esbuild@0.25.5)
+      webpack: 5.100.1(esbuild@0.25.5)
     dev: true
 
   /url-parse@1.5.10:
@@ -20824,12 +20832,12 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /webpack-sources@3.2.3:
-    resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
+  /webpack-sources@3.3.3:
+    resolution: {integrity: sha512-yd1RBzSGanHkitROoPFd6qsrxt+oFhg/129YzheDGqeustzX0vTZJZsSsQjVQC4yzBQ56K55XU8gaNCtIzOnTg==}
     engines: {node: '>=10.13.0'}
 
-  /webpack@5.99.9(esbuild@0.25.5):
-    resolution: {integrity: sha512-brOPwM3JnmOa+7kd3NsmOUOwbDAj8FT9xDsG3IW0MgbN9yZV7Oi/s/+MNQ/EcSMqw7qfoRyXPoeEWT8zLVdVGg==}
+  /webpack@5.100.1(esbuild@0.25.5):
+    resolution: {integrity: sha512-YJB/ESPUe2Locd0NKXmw72Dx8fZQk1gTzI6rc9TAT4+Sypbnhl8jd8RywB1bDsDF9Dy1RUR7gn3q/ZJTd0OZZg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -20845,6 +20853,7 @@ packages:
       '@webassemblyjs/wasm-edit': 1.14.1
       '@webassemblyjs/wasm-parser': 1.14.1
       acorn: 8.15.0
+      acorn-import-phases: 1.0.3(acorn@8.15.0)
       browserslist: 4.24.5
       chrome-trace-event: 1.0.3
       enhanced-resolve: 5.18.1
@@ -20859,9 +20868,9 @@ packages:
       neo-async: 2.6.2
       schema-utils: 4.3.2
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.14(esbuild@0.25.5)(webpack@5.99.9)
+      terser-webpack-plugin: 5.3.14(esbuild@0.25.5)(webpack@5.100.1)
       watchpack: 2.4.4
-      webpack-sources: 3.2.3
+      webpack-sources: 3.3.3
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
