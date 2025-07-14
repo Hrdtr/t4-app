@@ -19,7 +19,7 @@
     "@hono/trpc-server": "^0.4.0",
     "@trpc/server": "^10.45.2",
     "@tsndr/cloudflare-worker-jwt": "^3.2.0",
-    "drizzle-orm": "^0.44.2",
+    "drizzle-orm": "^0.44.3",
     "hono": "^3.12.12"
   },
   "devDependencies": {
