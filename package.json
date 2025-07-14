@@ -32,7 +32,7 @@
   "dependencies": {
     "@babel/runtime": "^7.27.6",
     "@manypkg/cli": "^0.24.0",
-    "@supabase/supabase-js": "^2.50.5",
+    "@supabase/supabase-js": "^2.51.0",
     "check-dependency-version-consistency": "^5.0.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.1",
