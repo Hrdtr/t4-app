@@ -23,7 +23,7 @@
     "react-native": "^0.80.1",
     "react-native-web": "^0.20.0",
     "react-native-web-lite": "^1.49.2",
-    "webpack": "^5.100.1"
+    "webpack": "^5.100.2"
   },
   "devDependencies": {
     "@tamagui/next-plugin": "^1.131.3",
