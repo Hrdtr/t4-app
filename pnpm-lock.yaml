@@ -173,8 +173,8 @@ importers:
         specifier: ^0.4.4
         version: 0.4.4
       metro-minify-terser:
-        specifier: ^0.82.5
-        version: 0.82.5
+        specifier: ^0.83.0
+        version: 0.83.0
       react-native-dotenv:
         specifier: ^3.4.11
         version: 3.4.11(@babel/runtime@7.27.6)
@@ -15359,9 +15359,9 @@ packages:
       flow-enums-runtime: 0.0.6
       terser: 5.42.0
 
-  /metro-minify-terser@0.82.5:
-    resolution: {integrity: sha512-v6Nx7A4We6PqPu/ta1oGTqJ4Usz0P7c+3XNeBxW9kp8zayS3lHUKR0sY0wsCHInxZlNAEICx791x+uXytFUuwg==}
-    engines: {node: '>=18.18'}
+  /metro-minify-terser@0.83.0:
+    resolution: {integrity: sha512-jsVzWnkl43Kb18iQvEn0Keq0n5WQwAiAHn9vCFE6roM6E4fVLDKlzDNoWyFzs9GyodlVYkbjAuz9PCpEzBfq5Q==}
+    engines: {node: '>=22.14'}
     dependencies:
       flow-enums-runtime: 0.0.6
       terser: 5.42.0
