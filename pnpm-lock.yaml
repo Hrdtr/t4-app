@@ -340,8 +340,8 @@ importers:
         specifier: ^1.132.11
         version: 1.132.11(react-dom@18.3.1)(react-native-svg@13.14.1)(react-native@0.79.5)(react@19.1.0)
       '@tamagui/shorthands':
-        specifier: ^1.132.10
-        version: 1.132.10(react-dom@18.3.1)(react-native@0.79.5)(react@19.1.0)
+        specifier: ^1.132.11
+        version: 1.132.11(react-dom@18.3.1)(react-native@0.79.5)(react@19.1.0)
       '@tamagui/themes':
         specifier: ^1.132.10
         version: 1.132.10(react-dom@18.3.1)(react-native@0.79.5)(react@19.1.0)
@@ -401,8 +401,8 @@ importers:
         specifier: ^1.132.11
         version: 1.132.11(react-dom@18.3.1)(react-native@0.79.5)(react@18.3.1)
       '@tamagui/shorthands':
-        specifier: ^1.132.10
-        version: 1.132.10(react-dom@18.3.1)(react-native@0.79.5)(react@18.3.1)
+        specifier: ^1.132.11
+        version: 1.132.11(react-dom@18.3.1)(react-native@0.79.5)(react@18.3.1)
       '@tamagui/themes':
         specifier: ^1.132.10
         version: 1.132.10(react-dom@18.3.1)(react-native@0.79.5)(react@18.3.1)
@@ -6615,20 +6615,20 @@ packages:
       - '@types/react'
     dev: false
 
-  /@tamagui/shorthands@1.132.10(react-dom@18.3.1)(react-native@0.79.5)(react@18.3.1):
-    resolution: {integrity: sha512-jz4NxxvfltoFxwt51RRZTl3MGjhzR+4bU/uzYIU+QHPhOlKIow3yeNSCJEY2Wr0tJkcpQhaq1DavtbonLDpIFg==}
+  /@tamagui/shorthands@1.132.11(react-dom@18.3.1)(react-native@0.79.5)(react@18.3.1):
+    resolution: {integrity: sha512-MTtCVsJon56ZfEaxNy5pZIJ5n2uw7f1fSBhlT/M1cfXYZA6rB7Uqwm2e3IudUgS9x+uFhWCwsHfN8FWP/1h8wg==}
     dependencies:
-      '@tamagui/web': 1.132.10(react-dom@18.3.1)(react-native@0.79.5)(react@18.3.1)
+      '@tamagui/web': 1.132.11(react-dom@18.3.1)(react-native@0.79.5)(react@18.3.1)
     transitivePeerDependencies:
       - react
       - react-dom
       - react-native
     dev: false
 
-  /@tamagui/shorthands@1.132.10(react-dom@18.3.1)(react-native@0.79.5)(react@19.1.0):
-    resolution: {integrity: sha512-jz4NxxvfltoFxwt51RRZTl3MGjhzR+4bU/uzYIU+QHPhOlKIow3yeNSCJEY2Wr0tJkcpQhaq1DavtbonLDpIFg==}
+  /@tamagui/shorthands@1.132.11(react-dom@18.3.1)(react-native@0.79.5)(react@19.1.0):
+    resolution: {integrity: sha512-MTtCVsJon56ZfEaxNy5pZIJ5n2uw7f1fSBhlT/M1cfXYZA6rB7Uqwm2e3IudUgS9x+uFhWCwsHfN8FWP/1h8wg==}
     dependencies:
-      '@tamagui/web': 1.132.10(react-dom@18.3.1)(react-native@0.79.5)(react@19.1.0)
+      '@tamagui/web': 1.132.11(react-dom@18.3.1)(react-native@0.79.5)(react@19.1.0)
     transitivePeerDependencies:
       - react
       - react-dom
