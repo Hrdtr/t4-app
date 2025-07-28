@@ -398,8 +398,8 @@ importers:
         specifier: ^1.132.15
         version: 1.132.15(react-dom@18.3.1)(react-native@0.79.5)(react@18.3.1)
       '@tamagui/react-native-media-driver':
-        specifier: ^1.132.11
-        version: 1.132.11(react-dom@18.3.1)(react-native@0.79.5)(react@18.3.1)
+        specifier: ^1.132.15
+        version: 1.132.15(react-dom@18.3.1)(react-native@0.79.5)(react@18.3.1)
       '@tamagui/shorthands':
         specifier: ^1.132.11
         version: 1.132.11(react-dom@18.3.1)(react-native@0.79.5)(react@18.3.1)
@@ -6450,18 +6450,6 @@ packages:
       react-native: '*'
     dependencies:
       '@tamagui/web': 1.126.18(react-dom@18.3.1)(react@18.3.1)
-      react-native: 0.79.5(@babel/core@7.28.0)(react@18.3.1)
-    transitivePeerDependencies:
-      - react
-      - react-dom
-    dev: false
-
-  /@tamagui/react-native-media-driver@1.132.11(react-dom@18.3.1)(react-native@0.79.5)(react@18.3.1):
-    resolution: {integrity: sha512-3vKFs/o7G8ldim74qCWXX67RREyJEYLJP210tc15oahPhLt1SHE+TQPhzGYNjV9Gz7r9gGbrcaXVTa1Mq+AFYg==}
-    peerDependencies:
-      react-native: '*'
-    dependencies:
-      '@tamagui/web': 1.132.11(react-dom@18.3.1)(react-native@0.79.5)(react@18.3.1)
       react-native: 0.79.5(@babel/core@7.28.0)(react@18.3.1)
     transitivePeerDependencies:
       - react
