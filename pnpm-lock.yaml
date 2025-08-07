@@ -420,8 +420,8 @@ importers:
         version: 1.49.2(react-dom@18.3.1)(react-native-web@0.20.0)(react-native@0.79.5)(react@18.3.1)
     devDependencies:
       '@tamagui/build':
-        specifier: ^1.132.15
-        version: 1.132.15
+        specifier: ^1.132.16
+        version: 1.132.16
 
 packages:
 
@@ -5361,8 +5361,8 @@ packages:
       react-native: 0.79.5(@babel/core@7.28.0)(react@18.3.1)
     dev: false
 
-  /@tamagui/babel-plugin-fully-specified@1.132.15:
-    resolution: {integrity: sha512-IHC0pNL6ZcjXdgkh1MP4jnQSeVYAJrdfMAd3R55/8LTdB9fre16Qj/5urETM41PG34u34jhhn4KFIqq36XxxwQ==}
+  /@tamagui/babel-plugin-fully-specified@1.132.16:
+    resolution: {integrity: sha512-zvKTFMRsUq8dsb/WDK0k5i41m5xnVcXBJ5e28FDxIx7DG4Wvbx2MQ+2njwfWQT+JClygLvUEbAghjI7roQWaBw==}
     dependencies:
       '@babel/core': 7.28.0
     transitivePeerDependencies:
@@ -5386,13 +5386,13 @@ packages:
       - supports-color
     dev: true
 
-  /@tamagui/build@1.132.15:
-    resolution: {integrity: sha512-Xdk/xmFJYt+awamb9jm0UaGXeqjSfDSKWVSOVt2/tDaSqsqv6oz2x1h0lzroSfHgkO/2Fo3e1YajlojjAQxpww==}
+  /@tamagui/build@1.132.16:
+    resolution: {integrity: sha512-MBJyBw6iadiRJPzIRnzvSF+FN8Fd3iL4cULIDrimqGyfsREOfWIMR5U8vpeHbnICxryq2sShn65q55NuOOO+Sg==}
     hasBin: true
     dependencies:
       '@babel/core': 7.28.0
       '@swc/core': 1.11.29(@swc/helpers@0.5.17)
-      '@tamagui/babel-plugin-fully-specified': 1.132.15
+      '@tamagui/babel-plugin-fully-specified': 1.132.16
       '@types/fs-extra': 9.0.13
       '@typescript/native-preview': 7.0.0-dev.20250619.1
       chokidar: 3.5.3
