@@ -194,8 +194,8 @@ importers:
         specifier: '*'
         version: link:../../packages/ui
       '@tamagui/next-theme':
-        specifier: ^1.132.15
-        version: 1.132.15(@babel/core@7.28.0)(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1)
+        specifier: ^1.132.16
+        version: 1.132.16(@babel/core@7.28.0)(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1)
       app:
         specifier: '*'
         version: link:../../packages/app
@@ -5571,16 +5571,6 @@ packages:
       react-native: 0.79.5(@babel/core@7.28.0)(react@18.3.1)
     dev: false
 
-  /@tamagui/constants@1.132.15(react-native@0.80.1)(react@18.3.1):
-    resolution: {integrity: sha512-gwpPu7MxxPP/sJrPOTPuSs+VrV4i3fSizGzMbdDW47Prx0NLJFjZxWJ1gSHMSk7eNGkon6Uapi0x7qxwLQ2bQQ==}
-    peerDependencies:
-      react: '*'
-      react-native: ^0.79.2
-    dependencies:
-      react: 18.3.1
-      react-native: 0.80.1(@babel/core@7.28.0)(react@18.3.1)
-    dev: false
-
   /@tamagui/constants@1.132.16(react-native@0.79.5)(react@18.3.1):
     resolution: {integrity: sha512-ET3d0vpS92mLIJjTuXjLy8BcKfy/hli5abBZrQ+T8vmakLa6P3+ymVsd6NvsE90DzYaaCndxixtCPn/Ru+ANag==}
     peerDependencies:
@@ -5609,7 +5599,6 @@ packages:
     dependencies:
       react: 18.3.1
       react-native: 0.80.1(@babel/core@7.28.0)(react@18.3.1)
-    dev: true
 
   /@tamagui/constants@1.49.2(react@18.3.1):
     resolution: {integrity: sha512-joHmXA+6MDV3yJluJwX1qVoFAJDnXvHDVzuhR4DCNzCmJdUo500+TY38XVuyzmYc3esVTM1/ymRJKWCwE/MWjA==}
@@ -6240,13 +6229,13 @@ packages:
       - webpack
     dev: true
 
-  /@tamagui/next-theme@1.132.15(@babel/core@7.28.0)(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1):
-    resolution: {integrity: sha512-oeRS4FHNlQr5JLnKW3nRPnkwuAQ6Z0NH6esUhP9eJuhDdVRF7mRajxO5xXm4ceU1Uif5r8TOFICn6NcktRyCfw==}
+  /@tamagui/next-theme@1.132.16(@babel/core@7.28.0)(react-dom@18.3.1)(react-native@0.80.1)(react@18.3.1):
+    resolution: {integrity: sha512-JfZWjCgNEFyCkydwzHFaf7AwF+27Ig7Myksm0LleP22HWAG37DxJBVq19fzu0kldulwfeCc7YkrRcfyhPQMxmg==}
     peerDependencies:
       react: '*'
     dependencies:
-      '@tamagui/constants': 1.132.15(react-native@0.80.1)(react@18.3.1)
-      '@tamagui/use-event': 1.132.15(react-native@0.80.1)(react@18.3.1)
+      '@tamagui/constants': 1.132.16(react-native@0.80.1)(react@18.3.1)
+      '@tamagui/use-event': 1.132.16(react-native@0.80.1)(react@18.3.1)
       next: 15.3.5(@babel/core@7.28.0)(react-dom@18.3.1)(react@18.3.1)
       react: 18.3.1
     transitivePeerDependencies:
@@ -7294,17 +7283,6 @@ packages:
       - react-native
     dev: false
 
-  /@tamagui/use-event@1.132.15(react-native@0.80.1)(react@18.3.1):
-    resolution: {integrity: sha512-ItCkxH2vWHHxl7k/mN2QaBrfUFe08VFr6A42nKGaSxGBb7Ay9iad/IQPB0ROjinhSzfTaUckRKaWaO0aMxDjtg==}
-    peerDependencies:
-      react: '*'
-    dependencies:
-      '@tamagui/constants': 1.132.15(react-native@0.80.1)(react@18.3.1)
-      react: 18.3.1
-    transitivePeerDependencies:
-      - react-native
-    dev: false
-
   /@tamagui/use-event@1.132.16(react-native@0.79.5)(react@18.3.1):
     resolution: {integrity: sha512-iwA0p0SVQJXbN1zKfW6DNzGEpsKis10P8tk1QCbZLcr7sZiC9/b0qAFHX4Z9boV9aJwqK6SYySeFasvFT/chXg==}
     peerDependencies:
@@ -7336,7 +7314,6 @@ packages:
       react: 18.3.1
     transitivePeerDependencies:
       - react-native
-    dev: true
 
   /@tamagui/use-event@1.49.2(react@18.3.1):
     resolution: {integrity: sha512-3yk1/ZWQkNpHxowNIJAlI23rcxSIvUZFKCO7J3vTTU0Gihp/5vEQ0S1gj9rjGTlSkPzBLC9OOxEYRKMZxUfdnA==}
