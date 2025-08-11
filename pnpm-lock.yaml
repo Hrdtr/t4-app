@@ -331,8 +331,8 @@ importers:
         specifier: ^1.132.17
         version: 1.132.17(react-dom@18.3.1)(react-native@0.79.5)(react@19.1.0)
       '@tamagui/colors':
-        specifier: ^1.132.16
-        version: 1.132.16
+        specifier: ^1.132.17
+        version: 1.132.17
       '@tamagui/font-inter':
         specifier: ^1.132.16
         version: 1.132.16(react-dom@18.3.1)(react-native@0.79.5)(react@19.1.0)
@@ -5496,6 +5496,10 @@ packages:
 
   /@tamagui/colors@1.132.16:
     resolution: {integrity: sha512-gvR0r8SrDHFX7cOcDOey2xBQzFS413h1U+0pFCixA9F/d7+nJYXrzTqnph+35Lxa/x+++W5uqWy32e9CTOp9+w==}
+    dev: false
+
+  /@tamagui/colors@1.132.17:
+    resolution: {integrity: sha512-WLuwqDcg1oKeIFhfJ6I1yi+6WTdv354MNZ8hnmohH2Qoeb3VYwET87LMDGgxjYUz8Ef+gGdISEeh+ZhrBWVnnQ==}
     dev: false
 
   /@tamagui/compose-refs@1.126.18(react@18.3.1):
