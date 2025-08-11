@@ -6,7 +6,7 @@
   "description": "Easily Create Type-Safe, Full-Stack Apps for React Native + Web using the t4 stack.",
   "dependencies": {
     "chalk": "^5.4.1",
-    "ora": "^7.0.1"
+    "ora": "^8.2.0"
   },
   "scripts": {
     "clean": "git clean -xdf node_modules"
