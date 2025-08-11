@@ -28,7 +28,7 @@
     "@tamagui/toast": "^1.126.18",
     "@tanstack/react-virtual": "^3.13.12",
     "jotai": "^2.12.5",
-    "tamagui": "^1.49.2"
+    "tamagui": "^1.132.17"
   },
   "devDependencies": {
     "@tamagui/build": "^1.132.17"
